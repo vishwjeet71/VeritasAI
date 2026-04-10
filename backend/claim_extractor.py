@@ -1,14 +1,14 @@
-import spacy
 from spacy.tokens import Span, Doc
 from spacy.util import is_package
 from typing import List, Optional, Set
-import logging
+import logging, groq, json, spacy
+from prompts import QUERY_EXTRACT_PROMPT
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-def load_nlp_model(model_name: str = "en_core_web_md"): # en_core_web_md
+def load_nlp_model(model_name: str = "en_core_web_md"):
 
     if not is_package(model_name):
         print(f"Downloading {model_name}...")
@@ -20,11 +20,13 @@ def load_nlp_model(model_name: str = "en_core_web_md"): # en_core_web_md
     except Exception as e:
         logger.error(f"Failed to load spaCy model {model_name}: {e}")
         return None
-
+    
 NLP = load_nlp_model()
+
 
 def _is_part_of_entity(token, sent: Span) -> bool:
     return any(token.i >= ent.start and token.i < ent.end for ent in sent.ents)
+
 
 def extract_candidate_sentences(
     article_text: str, 
@@ -96,17 +98,62 @@ def extract_candidate_sentences(
     return candidate_sentences
 
 
-def extract_and_score_claims(candidates):
-    pass
+def extract_from_query(query: str,
+                       client, strictness: float = 0.5,
+                       model_name: str = "llama-3.3-70b-versatile"
+                       ) -> list[dict]:
+    
+    prompt = QUERY_EXTRACT_PROMPT.replace("{query}", query)
 
-def extract_claims_from_query(query):
-    pass
+    try:
+        response = client.chat.completions.create(
+            model= model_name,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.1,
+        )
+    except groq.AuthenticationError as e:
+        logger.error(f"Authentication error: {e}")
+        return []
+    except Exception as e:
+        logger.error(f"Error during query processing: {e}")
+        return []
+
+    raw = response.choices[0].message.content.strip()
+
+    if raw.startswith("```"):
+        raw = raw.split("```")[1]
+        if raw.startswith("json"):
+            raw = raw[4:]
+    raw = raw.strip()
+
+    try:
+        results = json.loads(raw)
+
+    except json.JSONDecodeError as e:
+        logger.error(f"JSON decoding error: {e}")
+        return []
+
+    return [r for r in results if r["score"] >= strictness]
 
 
 # --- Testing ---
 if __name__ == "__main__":
-    raw_text = str(input("Enter text: "))
-    results = extract_candidate_sentences(raw_text)
 
-    for i, s in enumerate(results):
-        print(f"{i+1}. {s}")
+    # Pattern based sentences extraction
+
+    raw_text = str(input("Enter text: "))
+    candidates = extract_candidate_sentences(raw_text)
+
+
+    # new function
+
+    client = groq.Groq(api_key="<yourApiKey>")
+    test_queries = [
+    "is it true that khamenei was killed in US israeli strikes",
+    "apparently apple is worth 3 trillion dollars and it was founded by steve jobs in 1976",
+    "what is machine learning",
+    "someone told me covid vaccine causes infertility and also pfizer made 36 billion in 2021",
+]   
+    for i, q in enumerate(test_queries):
+        result = extract_from_query(q, client)
+        print(f"{i + 1}: {result}")
