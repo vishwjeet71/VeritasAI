@@ -1,4 +1,4 @@
-import requests, json
+import requests, json, random
 import logging
 
 logging.basicConfig(level=logging.INFO)
@@ -6,14 +6,46 @@ logger = logging.getLogger(__name__)
 
 class search_and_filter():
 
-    def filter(self, data):
+    def _filter(fx):
         # return top 3 organizations result
-        pass
+        def wrapper(self, *args, **kwargs):
+            output = fx(self, *args, **kwargs)
 
-    def load_credibility_scores(self):
-        # loading credibility of different organizations
-        pass
+            organizations_names = set()
 
+            for id, data in output.items():
+                if data["name"] not in organizations_names:
+                    organizations_names.add(data["name"])
+            
+            scores_dict = self._load_credibility_scores(organizations_names) # temporary function
+            top_3_orgs = sorted(scores_dict, key=scores_dict.get, reverse=True)[:3]
+            print("Top 3 organizations based on credibility scores:", top_3_orgs)
+
+            top_3_orgs_data = {
+                item_id: details
+                for item_id, details in output.items() 
+                    if details['name'] in top_3_orgs
+                    }
+            return top_3_orgs_data
+        
+        return wrapper
+
+
+    def _load_credibility_scores(self, orgnization_names: set[str]):
+        ''' temporary function, using for testing only '''
+
+        if not isinstance(orgnization_names, set):
+            logger.error("[load_credibility_scores] Invalid input: orgnization_names must be a list")
+            return {}
+        
+        score_dict = {}
+    
+        for name in orgnization_names:
+            score_dict[name] = random.uniform(0.00, 0.99)
+        
+        return score_dict
+    
+    @_filter
     def gnews(
             self, searchquerys: list[str],
             apikey: str
@@ -25,7 +57,8 @@ class search_and_filter():
         if len(searchquerys) == 0:
             logger.info("[searchAndFilter] get null input")
             return {}
-
+        
+        new_format = {}
 
         for searchquery in searchquerys:
             url = "https://gnews.io/api/v4/search"
@@ -45,8 +78,6 @@ class search_and_filter():
             if response.status_code == (400 or 401):
                 logger.error("[searchAndFilter] Somthing wrrong with the Api key!")
                 return {}
-            
-            new_format = {}
             
             if response.status_code == 200:
                 articals = response.json()['articles']
