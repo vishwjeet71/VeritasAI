@@ -1,48 +1,122 @@
-import requests
-import json
-import logging
+import requests, logging, json 
+import numpy as np
+from evidence_extractor import Transformer
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def check_claim_in_db(claim: str, api_key: str):
-    api_key = api_key
-    query = claim
+def relevantResults(fx):
 
-    url = f"https://factchecktools.googleapis.com/v1alpha1/claims:search?query={query}&key={api_key}"
+    def wrapper(*args, **kwargs):
+        check_claim_in_db_output = fx(*args, **kwargs)
 
-    try:
-        response = requests.get(url)
-        if response.status_code != 200:
-            logger.error(f"Request failed with status code: {response.status_code}")
-            logger.info(f'''Reason: {json.loads(response.text).get("error", {}).get("message", "Unknown error")}''')
+        if check_claim_in_db_output is None:
             return None
-    except Exception as e:
-        return None
 
-    data = response.json()
-    output = {}
+        tf = kwargs["embedding_obj"]
 
-    if "claims" in data:
-            for claim in data["claims"]:
-                try:
-                    output[f"{claim['text']}"] = {
-                        "publisher": claim['claimReview'][0]['publisher'].get("name", "Unknown"),
-                        "rating": claim['claimReview'][0]['textualRating'],
-                        "source": claim['claimReview'][0]['url']
-                }
-                except Exception as e:
-                    logger.error(f"[FactCheckDb]: {e}")
-                    continue
-    else:
-        print("No fact checks found.")
+        try: 
+            root_claim = kwargs["claim"]
+            result_claims = list(check_claim_in_db_output.keys())
+
+            root_emb = tf.get_embeddings(root_claim)
+            result_embs = tf.get_embeddings(result_claims)
+
+            dot_product = np.dot(result_embs, root_emb)
+
+            norm_root = np.linalg.norm(root_emb)
+            norm_results = np.linalg.norm(result_embs, axis=1)
+
+            scores = dot_product / (norm_results * norm_root)
+            indices = np.where(scores > 0.80)[0]
+
+            relevantResultsDict = {}
+
+            for index in indices:
+                relevantResultsDict[result_claims[index]] = check_claim_in_db_output[result_claims[index]]
+
+            if relevantResultsDict:
+                return relevantResultsDict
+            else:
+                return None
+        
+        except Exception as e:
+            logger.error(f"[relevantResults]: {e}")
+            return None
     
-    return output
+    return wrapper
+
+
+@relevantResults
+def check_claim_in_db(claim: str, searchQuerys: list[str], api_key: str, embedding_obj: object):
+    api_key = api_key
+    searchQuerys = searchQuerys
+
+    if not isinstance(searchQuerys, list):
+        logger.error("[check_claim_in_db] Invalid input: searchQuerys must be a list")
+        return None
+    
+    if len(searchQuerys) == 0:
+        logger.info("[check_claim_in_db] get null input")
+        return None
+    
+
+    output = {}
+    responses = []
+
+    for query in searchQuerys:
+
+        url = f"https://factchecktools.googleapis.com/v1alpha1/claims:search?query={query}&key={api_key}"
+
+        try:
+            response = requests.get(url)
+            if response.status_code != 200:
+                logger.error(f"Request failed for query: {query} with status code: {response.status_code}")
+                logger.info(f'''Reason: {json.loads(response.text).get("error", {}).get("message", "Unknown error")}''')
+                responses.append(None)
+                continue
+            
+            responses.append(response.json())
+            logger.info(f"For '{query}' we found {len(response.json()['claims'])} claims")
+        except Exception as e:
+            responses.append(None)
+        
+    for index, data in enumerate(responses):
+
+        if data is None:
+            logger.warning(f"No data found for query: {searchQuerys[index]}")
+            continue
+
+        if "claims" in data:
+                for claim in data["claims"]:
+                    try:
+                        if claim['text'] in output:
+                            logger.warning(f"Duplicate claim found: {claim['text']}")
+                            continue
+
+                        output[f"{claim['text']}"] = {
+                            "publisher": claim['claimReview'][0]['publisher'].get("name", "Unknown"),
+                            "rating": claim['claimReview'][0]['textualRating'],
+                            "source": claim['claimReview'][0]['url']
+                    }
+                    except Exception as e:
+                        logger.error(f"[FactCheckDb]: {e}")
+                        continue
+        else:
+            logger.warning(f"response does not contain claims for query: {searchQuerys[index]}")
+
+    if output:
+        return output
+    else:
+        return None
 
 
 # --- Testing ---
 if __name__ == "__main__":
-    claim = "<claim>"
-    api_key = "<yourApiKey>"
-    output = check_claim_in_db(api_key=api_key, claim=claim)
+    claim = "<yourClaim>"
+    api_key = "<><yourApiKey>"
+    searchQuerys = []
+    
+    tf = Transformer()
+    output = check_claim_in_db(api_key=api_key, searchQuerys=searchQuerys, claim=claim, embedding_obj=tf)
     print(json.dumps(output, indent=4))
