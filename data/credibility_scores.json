@@ -1,0 +1,8274 @@
+{
+    "vaccines revealed": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "life news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "indianapolis star": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "clear politics": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "transparency international": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "sanevax": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the press-enterprise": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "gopusa": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "truth bang": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "real clear defense": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "news rescue": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the angry patriot": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "liberty unyielding": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "politico": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "lifehacker": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "politicer": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "liberation news": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "quackwatch": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "columbia daily herald": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "new atlas": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "the washington standard": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "alt-market": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the dandy goat": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "science news": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "politichicks": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "glamour magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "mbga   make britain great again": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "chicago tribune": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "afp (agence france presse)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "politics that work": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "teddy stick": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "world health organization (who)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "red state journalist": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "before it s news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "bridge magazine": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "open the government": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "democrat and chronicle": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "national rifle association (nra)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "st. paul pioneer press": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "the hearty soul": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the free patriot": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "molon labe media": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "sunlight foundation": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "lady liberty news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "proud democrat": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "nextgov": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "herald-sun": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "today dispatch": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "socialist standard": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "legal insurrection": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "right journalist": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "amandla": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "city journal": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "wisconsin state journal": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "the daily telegraph (australia)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "time magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the frisky": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "modern liberals": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "dc whispers": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "american journal review": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "nation45": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "conservative base": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "jew watch": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "dallas voice": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "western sentinel": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "myzonetoday": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "nottnews": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "atlanta black star": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "faithwire": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "harvard political review": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "american center for law and justice (aclj)": {
+        "reporting": null,
+        "bias": "right"
+    },
+    "tea party patriots": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "fresno bee": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "above top secret": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "global integrity": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "hindustan times": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "tharawat magazine": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "center for american progress": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "american association for the advancement of science (aaas)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the event chronicle": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "radio free asia": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "japan times": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "conservative firing line": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "youth radio": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "quartz": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "principia scientific international": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "cnet": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "howstuffworks": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "public library of science (plos)": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "panam post": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "national enquirer": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "fortune magazine": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the hard times": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "wall street journal": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "fraser institute": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "philippine daily inquirer": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "intellectual takeout": {
+        "reporting": null,
+        "bias": "right"
+    },
+    "natural news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "imowired": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "70 news (fake)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "personal liberty": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the globe and mail": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "blue dot daily": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "investigative reporters and editors": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "shame project": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "9 news (australia)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "consumerist": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "human progress": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "votevets.org": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "metabunk": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "alternet": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "investment watch blog": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "pj media": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "ending the fed news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "daily herald": {
+        "reporting": null,
+        "bias": "right-center"
+    },
+    "newsweek": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "libertytalk.fm": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "power line": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "wikipedia": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "next avenue": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the last refuge": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "the conversation": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "civitas institute": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "national report": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "monthly review": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "smartnews": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "peacock panache": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "eurasia group": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "news lookup": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "dr. axe": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "bluestem prairie": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "conservative media": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "empty wheel": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the militant": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "student daily news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "frontiers of freedom": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "bluevision.news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the intellectualist": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "federalist tribune": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "newsbud": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "thejournal.ie": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "full fact (uk)": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "nos comunicamos": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "engadget": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "economics.help": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "knights templar international": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "jewish world review": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "ipatriot": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "tvw washington state": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "newslogue": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "wonkette": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "bipartisan report": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "patriot beacon": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "political psychology journal": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the fucking news": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "washington babylon": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the federalist papers project": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "cracked": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "activist post": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "duffel blog": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "david icke": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "cook political report": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "gay star news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "got questions (gotquestions.org)": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the common sense show": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "next big future": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "why don t you try this": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "desert sun": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "newsday": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "subject politics": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "nc policy watch": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "neuroscience news": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "the postillion": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "usa politics now": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "patriotic viral news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "red youth": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "progressive army": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "homeopathy journal": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "sky news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the underground report": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "left side of history": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "the china post": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "american principles project": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "political blind spot": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "msn.com": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "health nut news": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "ice news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "medicine news": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "citizens united": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "health sciences institute": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "cato institute": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "euractiv": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "democracy now": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "21st century wire": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "press tv": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "freedom house": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "turning point usa": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "viral liberty": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "city and state new york": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the bureau of investigative journalism": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "canadian public affairs channel (cpac)": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "union of concerned scientists": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "arizona republic": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the deplorables": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the smoking gun": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "jewish breaking news": {
+        "reporting": null,
+        "bias": "right-center"
+    },
+    "american scientist": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "elite daily": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "punchingbag post": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "blue informer": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "knox report": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "now the end begins": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the internet post": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "one america news network": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "world politics review": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the peoples truth": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "life decisions international": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "news target": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "fast company magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "policy review": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "the stranger": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "national center for science education (ncse)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "move on": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "smoloko news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "frontiers in psychology": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "calgary herald": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "american herald tribune": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "cnbc": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "global info today": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "us journal review": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "public radio international (pri)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "who.what.why": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "thebreakingnews": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "disobedient media": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "inews": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "patheos": {
+        "reporting": "mixed",
+        "bias": "center"
+    },
+    "minneapolis star tribune": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the times": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the ec journal": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "middle east monitor": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "draining the swamp": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "tdtalliance.com": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "law newz": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "truth out": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "newsela": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "natural resources defense council": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "morning ledger": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "political inbox": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "liberal mountain": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "conservative nation": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "faith family america": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "earth first journal": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "resistance media": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "empire herald": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "miami new times": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the mary sue": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "burrard street journal": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the economist": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "patriot update": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "newsbreakshere": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "truthfeed": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "woodrow wilson international center for scholars": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "pittsburgh tribune review": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "telesur": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "baptist news global": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "san diego union tribune": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "project veritas": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "geopolitics alert": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the tab": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "maplight": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "sunday sport": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "muncie voice": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "jstor": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "public policy polling (ppp)": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "hl12": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "stopfake": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "usa news for you": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the advertiser": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "media zone": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "pubmed": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "cnn": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "conservative outfitters": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "it s going down": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "democratic underground": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "new york times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "a voice for men": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "new matilda": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "being liberal": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "red politics": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the trump media": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "boston globe": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "beijing review": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "post-bulletin": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "girls just wanna have guns": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "gq magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "right wing news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the balance": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "debate post": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "committee to protect journalists": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "earth magazine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "usa public life": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "future in america": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the adobo chronicles": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "realclimate": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the baffler": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "toronto star": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "represent.us": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "vatican radio": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "religion mind": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "new republic": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "faith panda": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "salem radio network news (srn news)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "abc news australia": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "american college of pediatricians": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "puppet string news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "new american news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "big league politics": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "hollywood reporter": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "san antonio express-news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "next news network": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the nation pakistan": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "westmonster": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "liberals unite (samuel warde)": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "eco news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "usa news/politics usa news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "independent living news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "lew rockwell": {
+        "reporting": null,
+        "bias": "right"
+    },
+    "behold israel": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "liberal society": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "conservative army": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the blue route": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "tea party news (the point)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "living whole": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "clarion project": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "western free press": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "young conservatives": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "fitsnews": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "eagle rising": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "russia insider": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "the morning star": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "bust magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "medium": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "agerpres": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "rt news": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "weasel zippers": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "wired magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "harvard gazette": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "task and purpose": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "portland press-herald": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "political ears": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "tea party tribune": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "the young turks": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "detroit free press": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "oil price": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "investors business daily": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "yes, i m right": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the national memo": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "new england skeptical society": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "institute for humane studies": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the oslo times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "powdered wig society": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "merion west": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the australian financial review": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "real clear investigations": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "skeptic magazine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "american free press": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "national observer (canada)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "true blue scoop": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the shovel": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "national institute on money in state politics": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "alternative media syndicate": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the hayride": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "the resurgent": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "usa facts": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "committee to investigate russia": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "boston herald": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "quanta magazine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "pacific research institute": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "american consequences": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "rolling stone": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "usa hitman": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "newsline": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "toronto sun": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "heartland institute": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "feministing": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "csc mediagroup usa": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "left action": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "mental floss": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "st. pete for peace": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "united federation of teachers (uft)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "third way": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "recode": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "al monitor": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "council for the national interest": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "sioux city journal": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "the bmj (british medical journal)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "stocks news daily": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "natural cures": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "metro uk": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "conservative patriot": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "blue tribune": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "washington times": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "counter propa": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "americablog": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "err news (estonia public broadcasting)": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "native american news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "rense": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "utah standard-examiner": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "intrepid report": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "conservapedia": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "waterford whispers news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "kuow npr": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "daily 49er": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "huffington post": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "quillette": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "moving left": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "france24": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "reuters": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "london web news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the saturday paper": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "center for public integrity": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "assassination science": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "wall street on parade": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "nmws.us": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the sun magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "geoengineering watch": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "red state pundit": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "usa today": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "electronic intifada": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "mediashift": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "la times (los angeles times)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "to inform is to influence": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "mean left hook": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "politifact": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "lexington herald leader": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the sons of liberty media": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the sydney morning herald": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "peterson institute for international economics": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "left foot forward": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "storm clouds gathering": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "reporters lab": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "daily hive": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "truth examiner": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "washington free beacon": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "washington journal": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "american bridge 21st century": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "center for immigration studies (cis)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "albany times-union": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "news with views": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "new internationalist": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "nevo news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "countdown to zerotime": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "vanguard america": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "san francisco chronicle": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "savannah morning news": {
+        "reporting": null,
+        "bias": "right-center"
+    },
+    "bay area reporter": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "politicususa": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the belfer center for science and international affairs": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "geology in": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "nautilus magazine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the journal news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "collective-evolution": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "deseret news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "just facts": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "american renaissance magazine": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "orlando sentinel": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "conscious life news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "advocate": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "proceedings of the national academy of sciences of the united states of america (pnas)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the people s cube": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "wake up world": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "witherspoon institute": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "independent women s forum (iwf)": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "esquire magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "counter current news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "mexico daily news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "world news daily": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "babylon bee": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "what really happened": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "cs globe": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "right web": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "ancient code": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "government slaves": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "gallup": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "voice of san diego": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "crosscut.com": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "natural cures not medicine": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "itv news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "federalist nation": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the outlook (monmouth university)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "borderland alternative media (bam)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "institute for responsible technology": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "aurora-news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "i bleed red white and blue": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "history news network": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "south africa today": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "guardians of democracy": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "answers in genesis": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "religion news service (rns)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "crime prevention research center": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "prop or not": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "economic policy institute": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "liberal america": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "right alerts": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "red, white and right": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "usa newsflash": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "defense one": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "sky and telescope": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "shareably": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "patriot hangout": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "usa news/states-tv": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "right wing watch": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "david horowitz freedom center": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "democracy 21": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "world magazine": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "christian action network": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "stilton s place": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "drudge retort": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "milo news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "groopspeak": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "democratic review": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "cream bmp": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "empire news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "bitch media": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the free telegraph": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "valuewalk": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "kansas city star": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "illuminati news": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "fstv (freespeech.org)": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "cnn-globalnews.com": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "al bawaba": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "christian science": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the atlanta banana": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the village voice": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the right stuff": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "gomer blog": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the quint": {
+        "reporting": null,
+        "bias": "right-center"
+    },
+    "liberty viral": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the proud liberal": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "we are change": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "daily press": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "armstrong economics": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "southern poverty law center": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "hillary beat trump": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the college fix": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "st. george gazette": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "16 wmpo": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "richmond times-dispatch": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "christianity today": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "flash news corner": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "washington journal (not c-span)": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "red alert politics": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "astronomy magazine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "wgn news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "my right american": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "bustle magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "observer online": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the real strategy": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "allen west republic": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "florida sun-post": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the millennial review": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "clash daily": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "ancient origins": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "judicial watch": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the us patriot": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "campaign life coalition": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "consortium news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "naked capitalism": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "vera files": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "military times": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "friends of science": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "offgrid survival": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "american patriot daily": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "us advisor": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "all that s fab": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "david wolfe": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "rile news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "congress.gov": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "infinite unknown": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "charisma news": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "health eternally": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "st. louis post-dispatch": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "pravda report": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "new nation news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "reductress": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "joint center for political and economic studies": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "communities digital news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "chicago reader": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "freedom s final stand": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "new york magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the racket report": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "itag live": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "bdnews24": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "conspiracy planet": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "tax justice network": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "reporters without borders": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "american physical society (aps)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "our land of the free": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "occupy democrats": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "mad american network": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "foreign policy": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "american lookout": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "this magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "emirates 24/7": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "circa news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "public interest legal foundation": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "chronicles of democracy": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "free west media": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "statesman journal": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "regulation magazine": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "deadspin": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "urban institute": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "reveal   center for investigative reporting": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "harper s magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the oklahoman": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "citizens for legitimate government (clg news)": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "roll call": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "the seattle tribune": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "mwc news   media with conscience": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "know your meme": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "daily mail": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "cap news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the establishment": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "moscow times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "opposing views": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "conservatives here": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "lifezette": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "inside higher ed": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the new observer": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "boy genius report (bgr)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "campus reform": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "reason": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "al.com (alabama news)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "berkshire eagle": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "natural resource governance institute": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "conservative 101": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "twisted.news": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "uncle sams misguided children": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "i love my freedom": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the economic times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "greensboro news and record": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "project purge": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "vox": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the jakarta post": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "arab news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "hudson institute": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "the daily citizen (dalton)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "slate": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "larouche pac": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "red ice tv": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "usa dose news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "national institutes of health (nih)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "akron beacon journal": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the verge": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "techxplore": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the west australian": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "truth be told": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "unique web magazine": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "raw story": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "usa politics today": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "bbarta24": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "zootfeed": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "newsnow (uk)": {
+        "reporting": "mixed",
+        "bias": "center"
+    },
+    "stubhill news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "secure america now": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "world meteorological organization": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the daily currant": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "earth institute": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "abc news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "independent voter network (ivn)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "heat street": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the proud conservative": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "american intelligence report": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "san diego free press": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "mediaite": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "whale.to": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "washington monthly": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "offended america": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "nodisinfo": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "fedsalert": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "pacific standard magazine": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "fellowship of the minds": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "wellness achiever": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "blacklisted news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "nutritionfacts.org": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "media fact watch": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "media research center (mrc)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "castanet": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "ihs janes 360": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "policyed": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "viral devil": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "london evening standard": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the gazette (cedar rapids)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "uproxx": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "hoover institution": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "black genocide": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "mcclatchydc": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "american united for separation of church and state": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "infowars-alex jones": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "en volve": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "putintrump.org": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "vermont independent": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "tea party inc": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "world politicus": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "derf magazine": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the fiscal times": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "tribunist": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "nhk world": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "staten island advance": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "newsone": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "tribune magazine uk": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "escape all these things": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "watchdog.org": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "american fans": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "american thinker": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the national pulse": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "gizmodo": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "stat (news)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "inside philanthropy": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "bullshido": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the jerusalem report": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "neon nettle": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "liberty courier": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "lynx media": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "hello christian": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "usa daily post": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "crooks and liars": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "factscan": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "news-gazette": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "daily headlines": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "jewish telegraphic agency (jta)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "doubtful news": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "arutz sheva (israel national news)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "satira tribune": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "propublica": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the spectator (uk)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "conservative spirit": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "progressives today": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "our health guides": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "special broadcasting service (sbs)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "our eye on islam": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "medscape": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "government executive": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "united press international (upi)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the reality-based community": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "political updater": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "humans are free": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "japan today": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "irish independent": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "carnegie endowment for international peace": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "controversial times": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the independent review": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "new york post": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "curve magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "true activist": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the irrawaddy": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "australian skeptics inc.": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "judicial crisis network": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "life site news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "scary mommy": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "cctv america": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "conservative tribune": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "climate etc": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "big blue vision": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the indian express": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "just facts daily": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "fusion": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "anderson institute": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "new england cable news (necn)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "fact/myth": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "russian news agency-tass": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "skeptical science": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "economy in crisis": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "government accountability institute": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "chronicles magazine (rockford)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "shoebat": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "austin american-statesman": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "investopedia": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "popular technology": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "greentech media": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "group of thirty": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the des moines register": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "chicago sun times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "church militant": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the skimm": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "truth uncensored": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "fm observer": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "center for media and democracy (pr watch)": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "anti-defamation league": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "popular resistance": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "the rantidote": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "honolulu star-advertiser": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "cerno (cernovich.com)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the zero hour": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "rapture news network": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "hurriyet daily news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "daily news bin": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "the burning spear": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "tampa bay times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "maclean s magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "asharq al-awsat": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the outline": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "war on the rocks": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "foreign affairs": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "metro": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the news lens": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "liberty videos": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "viralactions": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "christian science monitor": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "national monitor": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "freedom daily": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "baltimore sun": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "daily sabah": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "underground health": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "rationalwiki": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "euromaiden press": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "procon.org": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "politifeed": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "al-masdar news (amn)": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "high point enterprise": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the wilderness society": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the betoota advocate": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "live action": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "psychology today": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "lexington institute": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "ace flashman": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "britain first": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "conservative politicus": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "us info news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "united states house of representatives (house.gov)": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "media matters": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "concerned women for america": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the christian left": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the progressive": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "australian national review": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "blue nation review": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "modern alternative mama": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "liberty brief": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "sayfie review": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "patribotics blog": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "asia-pacific research": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "us postman": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "watts up with that": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "leftscoop": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "canadian taxpayers federation": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the phnom penh post": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the blacksphere (kevin jackson)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "duh progressive": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "ahram online": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "center for popular democracy": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the world can t wait": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "knowledge of today": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "bellingcat": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "al majalla": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "political dig": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "living resistance": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "reagan was right": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "geller report": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "celebtricity": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "american military news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "world affairs journal": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the tennessee star": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "the observer (uk)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "eagle tribune": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "unicorn riot": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "global times (china)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "asheville citizen-times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "1600 daily": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "autism speaks": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "ammoland": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "orange county register": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "anti-war": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "truth broadcasting network": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "return of kings": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "people magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "daily record (scotland)": {
+        "reporting": null,
+        "bias": "left"
+    },
+    "amnesty international": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the week": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "foreign policy initiative": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "center for strategic and international studies": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "christian news alerts": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the boston tribune": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "change.org": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "data asylum": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the lapine": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "real clear science": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "uk column": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "atlantic media": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "international rescue committee (irc)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "world socialist web site": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "knight foundation": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "prophecy today": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "gopocalypse": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "liberal darkness": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "stuff": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "space.com": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "daily telegraph": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "parallax news (pxw)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "learn liberty": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "freedum junkshun": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "winning democrats": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "vote smart": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "niskanen center": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "liberty headlines": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "freedom outpost": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "supreme patriot": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "splinter": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "allen b. west": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "christiantoday.info": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "get religion": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "family survival headlines": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "energy citizens": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "aol": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "metapedia": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "lgbtq nation": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "state of the nation 2012": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "left justified": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "(the) interpreter magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the watchers": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "gatestone institute": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "human rights watch": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "police times": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the chicago reporter": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "christwire": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "true viral news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "world tribune": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "popular science": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "world truth tv": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "federal times": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "big think": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "national newswatch": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "neverrepublican.com": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "kaiser family foundation": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "atomic monkey": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "first post": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "open magazines": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "roosevelt institute": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the plain dealer": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "alabama observer": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "rappler": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "the age (australia)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "new humanist": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "science based medicine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "daily notify": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "daily surge": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "dw news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "goodgopher": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "deadline hollywood": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "al jazeera": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "right side news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "twitchy": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "usa television": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "strategic culture foundation": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "eurasia review": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "680 news": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "infogalactic": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the federation for american immigration reform (fair)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "media roots": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "america magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "business insider": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "healthy vibes": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "cowger nation": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "commonwealth fund": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "anti news network": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "revere press": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "phys.org": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "raleigh news and observer": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "nasa": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "fairvote": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the jamestown foundation": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "treehugger": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "r street institute": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "read conservatives": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "bno news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "london free press": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "ron paul liberty report": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "us herald": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "daily usa update": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "dc statesman": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "american intelligence media": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "salon": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "state fort daily": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "south front": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "daily stormer": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "paste magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "100 percent fed up": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "national review": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "embols": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "fury news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "spinzon": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "los angeles daily news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "buzzfeed": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "pak alert press": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "lavender magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "ara news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "international renewable energy agency (irena)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "natural medicine team": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "in these times": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "cold dead hands": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the duran": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "sourcewatch": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "washington blade": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "ecowatch": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the japan news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "billmoyers.com": {
+        "reporting": "very high",
+        "bias": "leftcenter"
+    },
+    "foreign policy research institute": {
+        "reporting": "very high",
+        "bias": "right-center"
+    },
+    "center for democracy and technology": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "waterbury republican-american": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the independent": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "universe politics": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "egyptian streets": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "seattle post-intelligencer": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "new century times": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "family research council": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "peninsula daily news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the daily defender": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "spiked magazine": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "smithsonian magazine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "christian broadcasting network (cbn)": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "independent reporter (ir.net)": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "the sociable": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "govtrack": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "the nation institute": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the spokesman-review": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "top right news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the rundown live": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "us news world report": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "new roman times": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "baltimore city paper": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "the chronicle of higher education": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "defiant america": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "free wood post": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "evonomics": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "pro-america news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "age of shitlords": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "cns news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "louder with crowder": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "oil and water don t mix": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "sentinel ksmo": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "globe today": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "desmog": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "foreign policy in focus": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "insidesources": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "overpasses for america": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "counterpsyops": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "pbs news hour": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the daily vox": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "grist": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "american family association": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the cipher brief": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "mackinac center for public policy": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "governing magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "edmonton journal": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "polygraph.info": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "opposition report": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "rabble.ca": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "web daily": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "good magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "richochet": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "far left watch": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "age of autism": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "san jose mercury news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "turkey and facts (dogruluk payi)": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "real news 24": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "common dreams": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "dcreport.org": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "mlive (michigan   booth newspapers)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "global research": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the center on budget and policy priorities": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "news and stories from usa": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "institute for creation research (icr)": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "honest reporting": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "revolution news": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "autistic self advocacy network": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "listverse": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "stratfor": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "news blaze": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "viral cords": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the new atlantis": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "conflict news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "news heist": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "dead state": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the citizen press": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "thomson reuters foundation": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "council on foreign relations": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "us politics info": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "public religion research institute (prri)": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "reference news (xinhua)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "malaysia today": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "the news tribune": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "democratic moms": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "collectively conscious": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "countable news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "manhattan institute for policy research": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "wikispooks": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "gop watchdog": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "scorched earth news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "federalist society": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "national bureau of economic research (nber)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "usa daily time": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "el paso times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "big american news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "medicalxpress": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "impeach trump now": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "stillness in the storm": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "korea herald": {
+        "reporting": null,
+        "bias": "right-center"
+    },
+    "ynetnews": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "lima charlie news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "daily express": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "media equalizer": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the straits times": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "backed by fact": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "times-colonist": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "santa barbara independent": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "usafirstinfo": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the federalist": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "the news (mexico city)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "archaeology magazine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "national alliance": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the local (norway)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "le devoir": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "york daily record": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "369news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "anews-24.com (american news)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "foundation for defense of democracies": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "outside the beltway": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "ethics and public policy center (eppc)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "zero hedge": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "us political post": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "phoenix new times": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "france24-tv.com": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "american news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "news thump": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "numbers usa": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the times of london": {
+        "reporting": null,
+        "bias": "right-center"
+    },
+    "the fifth column": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "the daily discord": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "everyday feminism": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "alliance for securing democracy": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the scotsman": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "popular mechanics": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "empire sports news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the hindu business line": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the pantagraph": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "spiegel online": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the state": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "the newly press": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "shu+": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "black pigeon speaks": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "worldpolitics news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "las vegas review journal": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "gulf news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "positive news": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "hawar news agency": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "american foreign policy council (afpc)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "forward progressives": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "mercatornet": {
+        "reporting": null,
+        "bias": "right"
+    },
+    "the liberty beacon": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "federalist press": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "cbs news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "stars and stripes": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "red people": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "noozhawk": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "weekly standard": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "rock city times": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the international reporter": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "la presse": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "anthropocene magazine": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "stares at the world": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "dutch daily news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "south florida sun-sentinel": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "tomdispatch.com": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "american action forum": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "news mutiny": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "memeorandum": {
+        "reporting": "mixed",
+        "bias": "center"
+    },
+    "sparks/cnntimes": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "daily star uk": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the anti-media": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "jihad watch": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "anonymous": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "transpartisan review": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "true pundit": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "departed (maganews.com)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "american liberty report": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "danger and play": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the scientist": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "real news network": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the daily mash": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "india today": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "educate yourself": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the hindu": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the american independent institute": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the monthly (australia)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "center for the national interest": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "bb4sp": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "alliance defending freedom": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "townhall": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "newsy": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "247 news media": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "heavy": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "christian post": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "commentary magazine": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "covert geopolitics": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "st. cloud times": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the london economic": {
+        "reporting": null,
+        "bias": "left"
+    },
+    "pm nightly news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the democratic hub": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "acting man": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "code pink": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "vice news": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "deep left field": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "daily infobox": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "seeker daily": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "atlanta journal-constitution": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "mit technology review": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "gears of biz": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "mr. conservative (mrc)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "red country   conservative news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "live science": {
+        "reporting": null,
+        "bias": "pro-science"
+    },
+    "the right scoop": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "pacific pundit": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "every news here": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "usa world box": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the hartford courant": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "scientific american": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "usa spending": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "liberty news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "online conservative press": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "truth and action": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "extraordinary news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "sootoday.com": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "your news wire": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "crisis magazine": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "if you only news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "daily insider news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the last great stand": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "jesus is savior": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "webmd": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "daily signal": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the times of america": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the courier mail": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the controversial files": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "axios": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "understanding the threat": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "another day in the empire": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "red pepper": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "global news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "abc11 eyewitness news": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "veterans today": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "understand reality through science": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "world policy institute": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "ars technica": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "pinac": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "clean technica": {
+        "reporting": "very high",
+        "bias": "leftcenter"
+    },
+    "the algemeiner journal": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the bangkok post": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "conservative post": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the courier-journal": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "food babe": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "stuppid": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "free thought project": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "lawfare blog": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the florida squeeze": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "news feed hunter": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "independent media center": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "new bern sun journal": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the american prospect": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "carolina public press": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "citizen critics": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "hard dawn": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "drudge report": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "left voice": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "educate inspire change": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "red rock daily news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "digg": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "freedomain radio": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the usa conservative": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "little green footballs": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "american web media (awm)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "curious mind magazine": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "daily caller": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "miami herald": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "acn latitudes": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "disclose tv": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the red shtick": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "affinity magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "newslo-politicops": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the moderate voice": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "center for advanced defense studies": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "california political review": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "climate feedback": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "military.com": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "wral": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "tablet magazine": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "seattle times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "new america": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "tax policy center": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "new york daily news": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "james randi educational foundation": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "science daily": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "pew research": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "the humanist magazine": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "topinfo post": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "breitbart": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "what s the harm": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "the epoch times": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "towleroad": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "truthorfiction.com": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "truth channel politics": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "global post": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "oneeighty": {
+        "reporting": "mixed",
+        "bias": "center"
+    },
+    "center for international policy": {
+        "reporting": "very high",
+        "bias": "leftcenter"
+    },
+    "hang the bankers": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "charleston gazette-mail": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "truthdig": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "addicting info": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "times of san diego": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "political critique": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "syria news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "love knowledge": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "patriots voice": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "electronic frontier foundation": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "clickhole": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the post and email": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "mad world news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "chicks on the right": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "the climate reality project": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "national vanguard": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "tallahassee democrat": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "alaska dispatch news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "banned information": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "star telegram": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "uspoln": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "stock news usa": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "daily presser": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the crusader journal": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "wikileaks": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the premium news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "redorbit": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "project syndicate": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "as american as apple pie": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "conservative hq": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "san francisco globe": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "center for inquiry": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "delaware online   the news journal": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "every crs report": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "real time politics": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "news biscuit": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "international business times": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "reagan coalition": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the patriot post": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "news up today": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "jezebel": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "content news": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "the tyee": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "cbsnews.com.co": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "vessel news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "committee for economic development": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "president 45 donald trump": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "zme science": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "alpha news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the news literacy project": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the daily buzz": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the daily liberator": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "blue vision post": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "texas tribune": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the ron paul institute": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "enduring vision": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "news24 (south africa)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "national post": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "psypost": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "native americans": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "national geographic": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "biologos foundation": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "fortnightly review": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "associated press": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "gulag bound": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "accuracy in media (aim)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "daily dot": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "global risk insights (gri)": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "minnesota public radio (mpr)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "tampa tribune": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "new politics today": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "thinking mom s revolution": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "countercurrents.org": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the libertarian republic": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "proud patriots": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "i24 news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the american mirror": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "citizens for tax justice": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the record (new jersey)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "opendemocracy": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the rebel": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "irin news": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "bulletin of the atomic scientists": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "prntly": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the australian": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "nation one news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "from the trenches world report": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "magapill": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "stone cold truth": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "huzlers": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "wyoming institute of technology (wit)": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "information liberation": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "yes magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "guardian liberty voice": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "darien times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "scotusblog": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "charlotte observer": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "world net daily (wnd)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "new left review": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the varsity": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "globe magazine": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the day (new london)": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "marketwatch": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "nap-sack": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "media circus": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "news conservative": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "contrail science": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "theoswatch.com": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "viral patriot": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "breaking defense": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "world news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "talking points memo": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "npr (national public radio)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "natural health 365": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "all news pipeline": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "world press review": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "the automatic earth": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "tyranny rising": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "real news right now": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "institute for policy studies": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "florida times-union": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "national academy of sciences (nas)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the whim": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "us uncut": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "godlike productions": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the intercept": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "americans for prosperity": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "free patriot post": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "viral thread": {
+        "reporting": "mixed",
+        "bias": "center"
+    },
+    "the european union times": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "discovery institute": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "science debate": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "family security matters": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "politico info": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "red river valley news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "blue lives matter": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "dpa german press agency": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "dailysnark": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "dutch review": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "walk with her": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the walrus": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the rochdale herald": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "airwars": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the truth seeker": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the daily wire": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "patriot news daily": {
+        "reporting": null,
+        "bias": "right"
+    },
+    "american civil liberties union (aclu)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "ifl science": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "the forward": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "american updater": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the goldwater": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "gotnews": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "encyclopedia dramatica": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "conservative fighters": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the irish times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "new politics magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "cnn.com.de": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "henry makow (savethemales.ca)": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "discover the networks": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "that s nonsense": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "newshounds": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "mint press news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "being libertarian": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "awd news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "not liberal": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "smirking chimp": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "left wing nation": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "liberty hangout": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "world news politics": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "liberal plug": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "waking times": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "die zeit": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "skeptiko": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "restore american glory": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "cbc news (canadian broadcasting)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "news.com.au": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "global politics now": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "sciencealert": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "shtfplan.com": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "times of india": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the unreal times": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "workers world": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "sciencedirect": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "discover magazine": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "am new york": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "private eye": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "the herald (everett)": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "exposing the truth": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "egbertowillies": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "sheep killers": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "red info": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the new arab": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "vocativ": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "conservative review": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "daily buzz live": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "god (good lord above)": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "big government news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "tasnim news agency": {
+        "reporting": null,
+        "bias": "right"
+    },
+    "human events": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the daily banter": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "vidmax": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the truth division": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "i love native americans": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "americas freedom fighters": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "conservative byte": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "awareness act": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "jookos news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "insideclimate news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "scoopwhoop": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "what matters news": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "regated news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "oregonian": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the patriot-news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "speakgov.com": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "ipolitics": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the science post": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "current affairs magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "new moderate": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "freedom crossroads": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "redoubt news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "washington post": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "international center for research on women": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "health impact news": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "financial times": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "daily mirror": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "bearing arms": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "conservative info corner": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "latin times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the marshall project": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "just security": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "shared news report": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "anti-fascist news": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "montreal gazette": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "mother jones": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the stream": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "merry jane": {
+        "reporting": null,
+        "bias": "left"
+    },
+    "texas standard": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "reading the pictures": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "grasping reality with both hands: bradford delong": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "american news x": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "end time headlines": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "earthpulse press": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "cosmic intelligence agency": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "grabien news": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "usa supreme": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "politifact news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "defend europa": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "viral news network": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "vaccines news": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "second nexus": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "stormfront": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "apm reports": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "independent sentinel": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "climate central": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "vivaliberty": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "toledo blade": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the rightists": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "gawken": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "committee for skeptical inquiry": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "deccan herald": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "molad the center for the renewal of israeli democracy": {
+        "reporting": null,
+        "bias": "left"
+    },
+    "we are the mighty": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "center for security policy": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "factbox.tv": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "truth theory": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the religion of peace": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "nevada county scooper": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "genetic literacy project": {
+        "reporting": null,
+        "bias": "pro-science"
+    },
+    "helsinki times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "brief.news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "red flag news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the diplomat magazine": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "us chronicle": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "committee for a responsible federal budget": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "we conservative": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "rudaw": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "fresh news   usa": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the new american": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "autostraddle": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "civic tribune": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "mercopress": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the atlantic": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "ballotpedia": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "ozy media": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "boing boing": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "financial express": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "left over rights": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "denver post": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "first in freedom daily": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "sojourners (soho)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the post and courier": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "buffalo news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "upworthy": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "times of israel": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "world economic forum": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "gop.com": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "defund.com": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "windsor star": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "sfgate": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "israel hayom": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "skeptoid": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "fars news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "news and guts": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "national youth rights association": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "nature": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "credo action": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "vancouver sun": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the new tropic": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "environmental working group (ewg)": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the chronicle herald": {
+        "reporting": null,
+        "bias": "right-center"
+    },
+    "jstor daily": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "the middle east in london": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "space.news": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "retraction watch": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "elisabeth parker": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "new boston post": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "newswars": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "lethbridge herald": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "unbiased america": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "msnbc": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "reflection of mind": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "debkafile": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "liberty writers news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the meme policeman": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the other 98%": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "forbes": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "places journal": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "columbus dispatch": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the american cause": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "underground journalist": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "competitive enterprise institute": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the wire   india": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "snopes": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "newsbusters": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "mises daily": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "national policy institute": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "center for responsive politics (open secrets)": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "fairness & accuracy in reporting (fair)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "freedom from religion foundation (ffrf)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the american institute of physics": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "al arabiya": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "franklin center for government and public integrity": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "liberal speak": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "remington research group": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "climate action tracker": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the daily news uk": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "conservative flash news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "arkansas democrat-gazette": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "star-ledger": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "lozier institute": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "higgins news network": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "real clear policy": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "abril uno": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "inequality media": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "american enterprise institute": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "signs of the times (sott)": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "red state watcher": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "canadian dimension": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "sunday inquirer": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the stern facts": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "vote": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "ethics & religious liberty commission (erlc)": {
+        "reporting": null,
+        "bias": "right"
+    },
+    "not allowed to": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "new statesman": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "oath keepers": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "jacobin": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "congressional budget office (cbo)": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "jews news": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "pittsburgh post-gazette": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "frontpage magazine": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "red state": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "international press institute": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "medusa magazine": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "climate depot": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "sungress": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "kmov": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "life and about": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "joe for america": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "wichita eagle": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "bizpac review": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "detroit news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "evolution news and views": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the daily climate": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "bbc": {
+        "reporting": "very high",
+        "bias": "leftcenter"
+    },
+    "enh live": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the blaze": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the canary (uk)": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "akkadian times": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "common cause": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "natural awakenings magazine": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "loser.com": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "roanoke times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "mercola": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the canadian press": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "the political garbage chute": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "donald trump news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "intellihub": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "opslens": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "bare naked islam": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "we are anonymous": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "earthnews   conservative news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "usanewstoday": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "doctors without borders": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "cincinnati enquirer": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "euronews": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "manchester union leader": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "black agenda report": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "medical daily": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "calwatchdog.com": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "morning consult": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "mondoweiss": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "better government association": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the mind unleashed": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "internet chronicle": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "american spectator": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "cityworldnews": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "nbc news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "mayo clinic": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "journal of politics and society": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "patriot fires": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "highline": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "reverb press": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "news channel 4 (kfor.com)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "sage journals": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "sports pickle": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "jones report": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "canada free press": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "voice of america": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "international energy agency (iea)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "global voices": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "denver guardian": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "syrian observatory for human rights (sohr)": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "ottawa citizen": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the manila times": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "prospect magazine": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the virginian-pilot": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "freedom liberty news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the daily sheeple": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "nowthis news": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "now8news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "cosmopolitan": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "kurdistan 24": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "silence is consent": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the constitution": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "center for a new american security": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "political storm": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the jewish press": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "pink news": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "progress tribune": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the resistance: the last line of defense": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "learn progress": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "verified politics": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "inquisitr": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "the daily squib": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "mashable": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "zdf (zweites deutsches fernsehen)": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "lincoln journal star": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "washington examiner": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "uawire": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "the new york evening": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "futurism": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "amplifying glass": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "daily business review": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "allied progress": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "usa conservative report": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "jeffereyjaxen.com": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "american truth seekers": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the remnant magazine": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the spoof": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "hoax slayer": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "ctv news": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "press progress": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "peterson foundation": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "alternative media television (amtv)": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "vanity fair": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "coast to coast am": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "science illustrated": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "houston chronicle": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "foundation for economic education": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "center for a stateless society": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "republic world": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "real jew news": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "headline news network": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "maine beacon": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "edmonton sun": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "feminist frequency": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "true trumpers": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "ring of fire": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the truth about guns": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "liberal examiner": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "attn:": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "international consortium of investigative journalists": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "arizona daily star": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "lark news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "plymouth patriot post": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "earth we are one (ewao)": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "freakonomics radio": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "free rein report": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the jordan times": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "air & space magazine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "taiwan news": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "american people network": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "palmer report": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "stimson center": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "hillary daily": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "times headline": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "red rock tribune": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "free press": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "salt lake tribune": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "alan guttmacher institute": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "american today": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "qpolitical": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "revcom.us": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "center for global development": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "project censored": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "greenville gazette": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "eu observer": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "call the cops": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "canadian jewish news (cjn)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "goodnewsnetwork": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the corbett report": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "columbia journalism review": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "new scientist": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "london broadcasting company (lbc)": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "koco news 5": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "no labels": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the daily bell": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the root": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "acculturated": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "albuquerque journal": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "carbonated tv": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the swedish wire": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "global skywatch": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "dallas morning news": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "american council on science and health": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "rewire": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "if america knew": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "hot air": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "skeptic ink": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "american academy of pediatrics": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "liberty is viral": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "loonwatch": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the beaverton": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "filming cops": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "conservative daily post": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "abel danger": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "atlantic council": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "opednews (oen)": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "sustainable pulse": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the nation": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "squawker": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "sacramento bee": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "evening harold": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "liberal bias press": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "yahoo news": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "daily dems": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "independent journal review": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "martinlutherking.org": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "daily occupation": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "prison planet": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "proud leader": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "science vibe": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "wear your voice": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "fivethirtyeight": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "breakingtop.world": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "financial post": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "shadow proof": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "facts and logic about the middle east (flame)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "israel video network": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the national (uae)": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the gateway pundit": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "daily beast": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "south jersey mechanic (trump news)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "illuminati watcher": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "scepcop (debunking skeptics)": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "onenewsnow": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the hill": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "science magazine": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the american interest": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "die hard democrat": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "sputnik news": {
+        "reporting": "mixed",
+        "bias": "right-center"
+    },
+    "africa news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "catholic online": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "truth monitor": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "american journal of archaeology": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "black lives matter": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "heritage foundation": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "think progress": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "scoopnest": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "ej insight (eji)": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "right smarts": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the trumpet": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the knife": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "thegrio": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "vigilant citizen": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "secrets of the fed": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the d.c. clothesline": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "scienceblogs": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "the forbidden knowledge": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "the onion": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "taipei times": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "backchannel": {
+        "reporting": "very high",
+        "bias": "leftcenter"
+    },
+    "thrive movement": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "federation of american scientists (fas)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "national interest": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "10news.one": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the political tribune": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "bloomberg": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the sun": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "national economics editorial": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "brookings institute": {
+        "reporting": "very high",
+        "bias": "leftcenter"
+    },
+    "certified politics": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "counterpunch": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "crimethinc": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the daily tarheel": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "nationmaster": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "winston-salem journal": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the out and abouter": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "althealth works": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "trunews": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "israel, islam and end times": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "71 republic": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "verrit": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "censored.news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "yellowhammer news": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "the augusta chronicle": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "focus on the family": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the news international": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "political insider": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "whatdoesitmean": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "tell me now": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "above the law": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "i have the truth": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "abcnews.com.co": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "freedom works": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the new civil rights movement": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "colorado springs gazette": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "riverbender.com": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "liveleak": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "raw progressive": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "dc gazette": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the providence journal": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "happy foxie": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "mic": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "nation of change": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "scicentral": {
+        "reporting": "high",
+        "bias": "pro-science"
+    },
+    "react 365": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "el pais": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "the century foundation": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "business 2 community": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "new yorker": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the skeptic s dictionary": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "east bay times": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "voice of america tv (voiceofamericatv.com)": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "american geophysical union (agu)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "fifth estate": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "a sheep no more": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "donald trump potus 45": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "liberty alliance": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "university business": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "american psychoanalytic association": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "takepart": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "liberty nation": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "pr newswire": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "verywell": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "the earth child": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the national patriot": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "taki s magazine": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "haaretz": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "illinois policy institute": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "resistance report": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "informed owners": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "milwaukee journal-sentinel": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "constitution project": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "the american conservative": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the tennessean": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "americans against the tea party (aattp)": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "capital research center": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "scicheck": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "anxiety and depression association of america (adaa)": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "realfarmacy": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "real clear politics": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "new york observer": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "wnyc": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "asia times": {
+        "reporting": null,
+        "bias": "center"
+    },
+    "stepfeed": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "south china morning post": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "breitbart unmasked": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "vdare": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "murica today": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "society for science": {
+        "reporting": "very high",
+        "bias": "pro-science"
+    },
+    "sure news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "broken world news": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "ms. (magazine)": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "the times-picayune": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "fox news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "new revolution now": {
+        "reporting": "high",
+        "bias": "right"
+    },
+    "greenpeace": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "conservative daily news": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "the observatory": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "sofrep": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "freakout nation": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "peta (people for the ethical treatment of animals)": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the news nerd": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "daily kos": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "sonoran news": {
+        "reporting": null,
+        "bias": "right"
+    },
+    "truth in media": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "american firearms institute": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "news chicken": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "national journal": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "national center for public policy research (ncppr)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "omaha world-herald": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the daily check": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "the fake news codex": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "deathandtaxes": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "gone left": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the truth about cancer": {
+        "reporting": "mixed",
+        "bias": "conspiracy"
+    },
+    "dissent magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "international crisis group": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "techcrunch": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "political site news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "constitution rising": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "z magazine": {
+        "reporting": "high",
+        "bias": "left"
+    },
+    "american legislative exchange council (alec)": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "td newswire": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "novinite": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "calgary sun": {
+        "reporting": "high",
+        "bias": "right-center"
+    },
+    "the washington feed": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "national association for the advancement of colored people (naacp)": {
+        "reporting": null,
+        "bias": "leftcenter"
+    },
+    "christian times newspaper": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "poynter institute": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "the pulse": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "business standard news (bs news)": {
+        "reporting": null,
+        "bias": "satire"
+    },
+    "blastingnews": {
+        "reporting": "mixed",
+        "bias": "leftcenter"
+    },
+    "news corpse": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "american flavor": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "china daily": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "newsmax": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "healthcare finance news": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "downtrend": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "usa viral news today": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "ihealthtube": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "aeon": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    },
+    "tax foundation": {
+        "reporting": "very high",
+        "bias": "right-center"
+    },
+    "project on government oversight": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "the news guru": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "the horn news": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "newsinsideout.com": {
+        "reporting": "low",
+        "bias": "conspiracy"
+    },
+    "daily record": {
+        "reporting": "high",
+        "bias": "center"
+    },
+    "international organization": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "against crony capitialism": {
+        "reporting": "mixed",
+        "bias": "right"
+    },
+    "shareblue": {
+        "reporting": "mixed",
+        "bias": "left"
+    },
+    "factcheck": {
+        "reporting": "very high",
+        "bias": "center"
+    },
+    "conservative movement": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "truth revolt": {
+        "reporting": "fake",
+        "bias": "fake-news"
+    },
+    "philadelphia inquirer": {
+        "reporting": "high",
+        "bias": "leftcenter"
+    }
+}
