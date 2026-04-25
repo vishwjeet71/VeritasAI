@@ -1,7 +1,13 @@
+import socket
+_orig_getaddrinfo = socket.getaddrinfo
+def _ipv4_only(host, port, family=0, type=0, proto=0, flags=0):
+    return _orig_getaddrinfo(host, port, socket.AF_INET, type, proto, flags)
+socket.getaddrinfo = _ipv4_only
+
 from typing import Optional
 from google.oauth2.service_account import Credentials
-import json, re, trafilatura, validators
-import logging, os, gspread, threading
+import json, re, validators
+import logging, os, gspread, threading, requests
 from concurrent.futures import ThreadPoolExecutor
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
@@ -20,44 +26,49 @@ _creds = Credentials.from_service_account_file(creds_path, scopes=[
 ])
 sheet = gspread.authorize(_creds).open("organizationsCredibility").sheet1
 
+_session = requests.Session()
+_session.headers.update({
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"
+})
+
 
 class Sheetdb():
     def __init__(self):
         self.lock = threading.Lock()
-        self.lookup = self._calculate_lookup()
+        self._cache: dict[str, list] = {}
+        self._load_cache()
 
-    def _calculate_lookup(self):
+    def _load_cache(self):
         try:
-            existing_organization_names = sheet.col_values(1)
-            return {name: i for i, name in enumerate(existing_organization_names)}
+            all_rows = sheet.get_all_values() 
+            self._cache = {row[0]: row for row in all_rows if row and row[0]}
+            logger.info(f"[Cache] Loaded {len(self._cache)} entries.")
         except Exception as e:
-            logger.error(f"Failed to calculate lookup: {e}")
-            return {}
+            logger.error(f"[Cache] Failed to load: {e}")
+            self._cache = {}
 
-    def get_credentials(self, input_list: list[str]):
-        organization_names = list(input_list)
-        non_existing_organization_names = set()
 
-        for name in input_list:
-            if name not in self.lookup:
-                non_existing_organization_names.add(name)
+    def get_credentials(self, input_list: list[str]) -> dict:
+        with self.lock:
+            missing = [name for name in input_list if name not in self._cache]
 
-        if non_existing_organization_names:
-            logger.info(f"[fn:Credentials] non existing data: {non_existing_organization_names}")
-            self._add_data(non_existing_organization_names)
+        if missing:
+            self._add_data(missing)
 
-        return self._get_data(organization_names)
+        with self.lock:
+            return {
+                name: self._reform(list(self._cache.get(name, [name])))
+                for name in input_list
+            }
 
-    def _single_add_data(self, name: str):
-        if not isinstance(name, str):
-            logger.error(f"[dataUpdate] Invalid organization name: {name}")
-            return
+
+    def _scrape_one(self, name: str) -> list:
 
         try:
             output_raw = scraper(name)
             if output_raw:
                 output = json.loads(output_raw)
-                row_data = [
+                return [
                     name,
                     output.get("bias_rating_str"),
                     output.get("bias_rating_int"),
@@ -67,60 +78,46 @@ class Sheetdb():
                     output.get("mbfc_country_freedom_rating"),
                     output.get("media_type"),
                     output.get("traffic_popularity"),
-                    output.get("mbfc_credibility_rating")
+                    output.get("mbfc_credibility_rating"),
                 ]
-                sheet.append_row(row_data)
-                logger.info(f"[dataUpdate] Data added successfully for: {name}")
             else:
-                logger.warning(f"[dataUpdate] No data for '{name}'; adding empty entry.")
-                sheet.append_row([name])
-
+                logger.warning(f"[Scrape] No data for '{name}'; storing empty entry.")
+                return [name]
         except Exception as e:
-            logger.error(f"[dataUpdate] Error adding data for '{name}': {e}")
+            logger.error(f"[Scrape] Failed for '{name}': {e}")
+            return [name]
 
-    def _add_data(self, names_set: set):
+    def _add_data(self, missing: list[str]):
+        
         with ThreadPoolExecutor(max_workers=5) as executor:
-            executor.map(self._single_add_data, names_set)
+            scraped_rows = list(executor.map(self._scrape_one, missing))
 
         with self.lock:
-            self.lookup = self._calculate_lookup()
+            for row in scraped_rows:
+                if row:
+                    self._cache[row[0]] = row
 
-    def _single_Get_Data(self, name: str):
         try:
-            if name not in self.lookup:
-                logger.warning(f"[GetData] '{name}' not found in lookup after add attempt.")
-                return name, None
-            
-            data = sheet.row_values(self.lookup[name] + 1)
-            output = self._reform(data)
+            sheet.append_rows(scraped_rows)
+            logger.info(f"[Add] Batch wrote {len(scraped_rows)} rows.")
         except Exception as e:
-            logger.error(f"[GetData] Unable to get data for '{name}'. Error: {e}")
-            return name, None
+            logger.error(f"[Add] Batch write failed: {e}")
 
-        return name, output
 
-    def _get_data(self, names_set: list):
-        with ThreadPoolExecutor(max_workers=5) as executor:
-            results = dict(executor.map(self._single_Get_Data, names_set))
-        return results
-
-    def _reform(self, dataList: list[str]):
-        if len(dataList) < 10:
-            for _ in range(10 - len(dataList)):
-                dataList.append("")
-
-        attributes = {
-            "bias_rating_str":          dataList[1] if dataList[1] else None,
-            "bias_rating_int":          dataList[2] if dataList[2] else None,
-            "factual_reporting_str":    dataList[3] if dataList[3] else None,
-            "factual_reporting_int":    dataList[4] if dataList[4] else None,
-            "country":                  dataList[5] if dataList[5] else None,
-            "mbfc_country_freedom_rating": dataList[6] if dataList[6] else None,
-            "media_type":               dataList[7] if dataList[7] else None,
-            "traffic_popularity":       dataList[8] if dataList[8] else None,
-            "mbfc_credibility_rating":  dataList[9] if dataList[9] else None,
+    def _reform(self, data: list) -> dict:
+        
+        data.extend([""] * max(0, 10 - len(data)))
+        return {
+            "bias_rating_str":             data[1] or None,
+            "bias_rating_int":             data[2] or None,
+            "factual_reporting_str":       data[3] or None,
+            "factual_reporting_int":       data[4] or None,
+            "country":                     data[5] or None,
+            "mbfc_country_freedom_rating": data[6] or None,
+            "media_type":                  data[7] or None,
+            "traffic_popularity":          data[8] or None,
+            "mbfc_credibility_rating":     data[9] or None,
         }
-        return attributes
 
 
 def _calculate_credibility_score(attrs: dict) -> float:
@@ -261,26 +258,25 @@ def _fetch_credibility_details(fx):
             return None
 
         try:
-            downloaded = trafilatura.fetch_url(sourceLink)
-            soup = BeautifulSoup(downloaded, 'html.parser')
+            response = _session.get(sourceLink, timeout=10)
+            response.raise_for_status()
 
-            content = soup.find('div', class_='entry-content')
+            soup = BeautifulSoup(response.text, "lxml")
+
+            content = soup.find("div", class_="entry-content")
             if content is None:
                 logger.warning(f"[credibilityDataExtraction] No entry-content div found at: {sourceLink}")
                 return None
 
-            target_p = content.find(lambda t: t.name == 'p' and "Bias Rating:" in t.text)
-
+            target_p = content.find(lambda t: t.name == "p" and "Bias Rating:" in t.text)
             if target_p:
-                full_text = [l.strip() for l in target_p.get_text(separator="\n").split('\n') if l.strip()]
-                result = _extract_mbfc_data(full_text)
-                return result
+                full_text = [l.strip() for l in target_p.get_text(separator="\n").split("\n") if l.strip()]
+                return _extract_mbfc_data(full_text)
 
             logger.warning(f"[credibilityDataExtraction] 'Bias Rating:' paragraph not found at: {sourceLink}")
             return None
 
         except Exception as e:
- 
             org_name = args[0] if args else "unknown"
             logger.error(f"[credibilityDataExtraction] Unable to extract details for '{org_name}'. Error: {e}")
             return None
@@ -292,41 +288,35 @@ def _fetch_credibility_details(fx):
 def scraper(orgName: str):
     search_query = orgName.replace(" ", "+")
     url = f"https://mediabiasfactcheck.com/?s={search_query}"
-    link = None
 
     try:
-        downloaded = trafilatura.fetch_url(url)
+        response = _session.get(url, timeout=10)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "lxml")
 
-        if downloaded:
-            result = trafilatura.extract(
-                downloaded,
-                include_links=True,
-                output_format="html",
-                include_comments=False,
-                include_tables=True
-            )
-            soup = BeautifulSoup(result, 'html.parser')
+        articles = soup.find_all("article")
 
-            all_links = soup.find_all('a', href=True)
-            link = next(
-                (
-                    a['href'] for a in all_links
-                    if 'mediabiasfactcheck.com' in a['href']
-                    and '?s=' not in a['href']         
-                    and a['href'].rstrip('/') != 'https://mediabiasfactcheck.com'
-                ),
-                None
-            )
+        link = next(
+            (
+                a["href"]
+                for article in articles
+                for a in article.find_all("a", href=True)
+                if "mediabiasfactcheck.com" in a["href"]
+                and "?s=" not in a["href"]
+                and a["href"].rstrip("/") != "https://mediabiasfactcheck.com"
+                and "membership" not in a["href"]
+            ),
+            None
+        )
+
+        if link and validators.url(link):
+            return link
+
+        logger.warning(f"[scraper] No valid result link found for: {orgName}")
+        return None
 
     except Exception:
         logger.error(f"[scraper] Unable to fetch search page for: {orgName}")
-
-    if link:
-        if validators.url(link):
-            return link
-        else:
-            return None
-    else:
         return None
 
 
