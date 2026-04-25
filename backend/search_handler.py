@@ -1,6 +1,10 @@
 import requests, json, random
-import logging
+from dotenv import load_dotenv
+import logging, os
+from credibility_scorer import get_credibility_scorer, Sheetdb
 
+load_dotenv()
+sdb = Sheetdb()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -32,16 +36,12 @@ class search_and_filter():
 
 
     def _load_credibility_scores(self, orgnization_names: set[str]):
-        ''' temporary function, using for testing only '''
 
         if not isinstance(orgnization_names, set):
             logger.error("[load_credibility_scores] Invalid input: orgnization_names must be a list")
             return {}
         
-        score_dict = {}
-    
-        for name in orgnization_names:
-            score_dict[name] = random.uniform(0.00, 0.99)
+        score_dict = get_credibility_scorer(orgnization_names, sdb)
         
         return score_dict
     
@@ -99,5 +99,5 @@ class search_and_filter():
 if __name__ == "__main__":
 
     gnewsObject = search_and_filter()
-    data = gnewsObject.gnews(["New anime release"], "<yourApiKey>")
+    data = gnewsObject.gnews(["New anime release"], os.getenv("gnewsApi"))
     print(json.dumps(data, indent=4))
