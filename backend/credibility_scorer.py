@@ -372,7 +372,7 @@ def _extract_mbfc_data(input_list):
         result["factual_reporting_str"], result["factual_reporting_int"] = parse_rating(fact_raw)
 
         result["country"] = get_value("Country:")
-        result["mbfc_country_freedom_rating"] = get_value("MBFC's Country Freedom Rating:")
+        result["mbfc_country_freedom_rating"] = get_value("MBFC’s Country Freedom Rating:") or get_value("MBFC’s Country Freedom Rank:")
         result["media_type"] = get_value("Media Type:")
         result["traffic_popularity"] = get_value("Traffic/Popularity:")
         result["mbfc_credibility_rating"] = get_value("MBFC Credibility Rating:")
