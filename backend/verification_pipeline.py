@@ -1,6 +1,7 @@
 from fact_check_db import check_claim_in_db
 from groq_client import generate_search_queries, generate_verdict, client, rephrase_and_score
-import json, logging, traceback
+import json, logging, traceback, os
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from evidence_extractor import Transformer
 from search_handler import search_and_filter
 from input_handler import classify_input
@@ -254,6 +255,189 @@ class verification:
             dev_msg=f"classify_input returned unrecognised type: {input_type} for input: {repr(user_input)}",
         )
 
+
+    def verify_claims_batch(self, claims: list[str]) -> list[dict]:
+        if not claims:
+            return []
+
+        # Generate search queries for all claims
+        try:
+            all_search_queries = generate_search_queries(claims=claims)
+            if not all_search_queries or len(all_search_queries) != len(claims):
+                logger.error(
+                    f"[verify_claims_batch] generate_search_queries returned "
+                    f"{len(all_search_queries) if all_search_queries else 0} results for {len(claims)} claims"
+                )
+                return [
+                    self._fail(
+                        claim, None,
+                        user_msg="We couldn't process this claim right now. Please try rephrasing it.",
+                        dev_msg=f"generate_search_queries batch returned mismatched results for claim: {repr(claim)}"
+                    )
+                    for claim in claims
+                ]
+        except Exception as e:
+            logger.error(f"[verify_claims_batch] generate_search_queries raised: {e}")
+            return [
+                self._fail(
+                    claim, None,
+                    user_msg="We couldn't process this claim right now. Please try rephrasing it.",
+                    dev_msg=f"generate_search_queries batch raised for claim: {repr(claim)}",
+                    exc=e
+                )
+                for claim in claims
+            ]
+
+        # Fact-check DB + GNews
+
+        resolved = []
+
+        for claim, query_dict in zip(claims, all_search_queries):
+            fact_check_query = query_dict.get("fact_check_query")
+            gnews_specific   = query_dict.get("gnews_specific")
+            gnews_broad      = query_dict.get("gnews_broad")
+
+            # fact-check DB
+            db_output = None
+            try:
+                db_output = check_claim_in_db(
+                    claim=claim,
+                    searchQuerys=[fact_check_query],
+                    embedding_obj=self.tf
+                )
+            except Exception as e:
+                logger.warning(
+                    f"[verify_claims_batch] fact-check DB failed for claim: {repr(claim)} | {e}"
+                )
+
+            if db_output:
+                links = [data.get("source") for title, data in db_output.items()]
+                resolved.append({"claim": claim, "links": links, "method": "fact check db"})
+                continue
+
+            #  GNews
+            try:
+                search_results = self.sf.gnews([gnews_specific])
+            except Exception as e:
+                resolved.append(
+                    self._fail(
+                        claim, "search pipeline",
+                        user_msg="We couldn't find relevant sources for this claim. Please try again later.",
+                        dev_msg=f"gnews specific query raised for claim: {repr(claim)}",
+                        exc=e
+                    )
+                )
+                continue
+
+            if not search_results:
+                try:
+                    search_results = self.sf.gnews([gnews_broad])
+                except Exception as e:
+                    resolved.append(
+                        self._fail(
+                            claim, "search pipeline",
+                            user_msg="We couldn't find relevant sources for this claim. Please try again later.",
+                            dev_msg=f"gnews broad query raised for claim: {repr(claim)}",
+                            exc=e
+                        )
+                    )
+                    continue
+
+            if not search_results:
+                resolved.append(
+                    self._fail(
+                        claim, "search pipeline",
+                        user_msg="We couldn't find reliable sources to verify this claim.",
+                        dev_msg=f"Both gnews queries returned no results for claim: {repr(claim)}"
+                    )
+                )
+                continue
+
+            links = [data.get("url") for id, data in search_results.items()]
+            resolved.append({"claim": claim, "links": links, "method": "search pipeline"})
+
+        # Evidence extraction + verdict
+
+        def _pipeline(index: int, entry: dict) -> tuple[int, dict]:
+            """ steps 3-4 (evidence + verdict) for a single claim."""
+
+            if "error" in entry:
+                return index, entry
+
+            claim  = entry["claim"]
+            links  = entry["links"]
+            method = entry["method"]
+
+            # evidence extraction
+            try:
+                evidence = self.tf.extract_evidence(claim=claim, source_urls=links)
+            except Exception as e:
+                return index, self._fail(
+                    claim, method,
+                    user_msg="We found sources but couldn't extract usable content from them.",
+                    dev_msg=f"extract_evidence raised for claim: {repr(claim)} | urls: {links}",
+                    exc=e
+                )
+
+            if not evidence:
+                return index, self._fail(
+                    claim, method,
+                    user_msg="We found sources but couldn't extract usable content from them.",
+                    dev_msg=f"extract_evidence returned empty for claim: {repr(claim)} | urls: {links}"
+                )
+
+            # verdict generation
+            try:
+                verdict = generate_verdict(claim=claim, evidence_chunks=evidence, source_urls=links)
+            except Exception as e:
+                return index, self._fail(
+                    claim, method,
+                    user_msg="Verification failed at the final step. Please try again.",
+                    dev_msg=f"generate_verdict raised for claim: {repr(claim)}",
+                    exc=e
+                )
+
+            if not verdict:
+                return index, self._fail(
+                    claim, method,
+                    user_msg="Verification failed at the final step. Please try again.",
+                    dev_msg=f"generate_verdict returned empty for claim: {repr(claim)}"
+                )
+
+            verdict["method"] = method
+            verdict["claim"]  = claim
+            return index, verdict
+
+        results = [None] * len(resolved)
+
+        with ThreadPoolExecutor(max_workers=min(len(resolved), 5)) as executor:
+            future_to_index = {
+                executor.submit(_pipeline, i, entry): i
+                for i, entry in enumerate(resolved)
+            }
+            for future in as_completed(future_to_index):
+                i = future_to_index[future]
+                try:
+                    _, result = future.result()
+                    results[i] = result
+                except Exception as e:
+                    claim = resolved[i].get("claim", claims[i])
+                    results[i] = self._fail(
+                        claim, None,
+                        user_msg="An unexpected error occurred while verifying this claim.",
+                        dev_msg=f"_pipeline thread raised unexpectedly for claim: {repr(claim)}",
+                        exc=e
+                    )
+
+        return results
+
 if __name__ == "__main__":
     vc = verification()
-    print(vc.input_handler(""))
+    claims = [
+        "does us really killed iran leader Ali Khamenei and other top officials", # Example of single claim 
+        "what is machine learning", # interrogative sentence
+        "https://www.aljazeera.com/news/2026/2/28/irans-supreme-leader-ali-khamenei-killed-in-us-israeli-attacks-reports" # Example of Multiple-claims
+    ]
+    claim = claims[2]
+    claims = vc.input_handler(claim)
+    print(vc.verify_claims_batch(claims)) 
