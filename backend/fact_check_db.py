@@ -1,6 +1,10 @@
 import requests, logging, json 
-import numpy as np
-from evidence_extractor import Transformer
+import numpy as np, os
+from backend.evidence_extractor import Transformer
+from dotenv import load_dotenv
+load_dotenv()
+
+_api_key =  os.getenv("FactCheckDbApi")
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -48,7 +52,7 @@ def relevantResults(fx):
 
 
 @relevantResults
-def check_claim_in_db(claim: str, searchQuerys: list[str], api_key: str, embedding_obj: object):
+def check_claim_in_db(claim: str, searchQuerys: list[str], embedding_obj: object, api_key: str = _api_key):
     api_key = api_key
     searchQuerys = searchQuerys
 
@@ -109,14 +113,3 @@ def check_claim_in_db(claim: str, searchQuerys: list[str], api_key: str, embeddi
         return output
     else:
         return None
-
-
-# --- Testing ---
-if __name__ == "__main__":
-    claim = "<yourClaim>"
-    api_key = "<><yourApiKey>"
-    searchQuerys = []
-    
-    tf = Transformer()
-    output = check_claim_in_db(api_key=api_key, searchQuerys=searchQuerys, claim=claim, embedding_obj=tf)
-    print(json.dumps(output, indent=4))

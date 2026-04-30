@@ -1,7 +1,7 @@
 import requests, json, random
 from dotenv import load_dotenv
 import logging, os
-from credibility_scorer import get_credibility_scorer, Sheetdb
+from backend.credibility_scorer import get_credibility_scorer, Sheetdb
 
 load_dotenv()
 sdb = Sheetdb()
@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 class search_and_filter():
 
     def _filter(fx):
-        # return top 3 organizations result
+        
         def wrapper(self, *args, **kwargs):
             output = fx(self, *args, **kwargs)
 
@@ -21,7 +21,7 @@ class search_and_filter():
                 if data["name"] not in organizations_names:
                     organizations_names.add(data["name"])
             
-            scores_dict = self._load_credibility_scores(organizations_names) # temporary function
+            scores_dict = self._load_credibility_scores(organizations_names)
             top_3_orgs = sorted(scores_dict, key=scores_dict.get, reverse=True)[:3]
             print("Top 3 organizations based on credibility scores:", top_3_orgs)
 
@@ -48,7 +48,7 @@ class search_and_filter():
     @_filter
     def gnews(
             self, searchquerys: list[str],
-            apikey: str
+            apikey: str = os.getenv("gnewsApi")
     ):
         if not isinstance(searchquerys, list):
             logger.error("[searchAndFilter] Invalid input: searchquerys must be a list")
@@ -75,7 +75,7 @@ class search_and_filter():
                 logger.error(f"[searchAndFilter] Error: {str(e)}")
                 continue
 
-            if response.status_code == (400 or 401):
+            if response.status_code == (400, 401):
                 logger.error("[searchAndFilter] Somthing wrrong with the Api key!")
                 return {}
             
@@ -93,11 +93,3 @@ class search_and_filter():
 
         data = json.loads(json.dumps(new_format))
         return data
-    
-
-# --- Testing ---
-if __name__ == "__main__":
-
-    gnewsObject = search_and_filter()
-    data = gnewsObject.gnews(["New anime release"], os.getenv("gnewsApi"))
-    print(json.dumps(data, indent=4))

@@ -1,8 +1,11 @@
-from prompts import REPHRASE_AND_SCORE_PROMPT, SEARCH_QUERY_PROMPT, VERDICT_PROMPT
-import logging, groq, json
+from backend.prompts import REPHRASE_AND_SCORE_PROMPT, SEARCH_QUERY_PROMPT, VERDICT_PROMPT
+import logging, groq, json, os
+from dotenv import load_dotenv
+load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+client = groq.Groq(api_key= os.getenv("GroqApi"))
 
 def rephrase_and_score(
         candidates: list[str],
@@ -161,20 +164,3 @@ def generate_verdict(
 
     return result
 
-# --- Testing ---
-if __name__ == "__main__":
-
-    client = groq.Groq(api_key= "")
-
-    candidates = [] # output of extract_candidate_sentences
-    topClaims = rephrase_and_score(candidates=candidates)
-    print(json.dumps(topClaims, indent=4))
-
-    facts = [] # processed output of rephrase_and_score
-    searchQuerys = generate_search_queries( claims=topClaims)
-    print(json.dumps(searchQuerys, indent=4))
-
-    claim = ""
-    evidence_chunks = []
-    source_urls = []
-    print(json.dumps(generate_verdict(claim=claim, evidence_chunks=evidence_chunks, source_urls=source_urls), indent=4))
