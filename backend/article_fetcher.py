@@ -43,12 +43,3 @@ def fetch_article(urls):
         results = list(executor.map(_fetch_article_wrapper, urls))
     
     return results
-
-# --- Testing ---
-if __name__ == "__main__":
-    url_input = []
-    for i in range(2):
-        url_input.append(str(input("Enter URL: ")))
-
-    result = fetch_article(url_input)
-    print(result)

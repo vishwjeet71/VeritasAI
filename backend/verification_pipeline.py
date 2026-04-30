@@ -1,12 +1,12 @@
-from fact_check_db import check_claim_in_db
-from groq_client import generate_search_queries, generate_verdict, client, rephrase_and_score
+from backend.fact_check_db import check_claim_in_db
+from backend.groq_client import generate_search_queries, generate_verdict, client, rephrase_and_score
 import json, logging, traceback, os
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from evidence_extractor import Transformer
-from search_handler import search_and_filter
-from input_handler import classify_input
-from article_fetcher import fetch_article
-from claim_extractor import extract_candidate_sentences
+from backend.evidence_extractor import Transformer
+from backend.search_handler import search_and_filter
+from backend.input_handler import classify_input
+from backend.article_fetcher import fetch_article
+from backend.claim_extractor import extract_candidate_sentences
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -96,7 +96,7 @@ class verification:
         except Exception as e:
             return self._fail(
                 claim, method,
-                user_msg="We found sources but couldn't extract usable content from them.",
+                user_msg="We found sources but couldn't extract usable content from backend.them.",
                 dev_msg=f"extract_evidence raised for claim: {repr(claim)} | urls: {Links}",
                 exc=e,
             )
@@ -104,7 +104,7 @@ class verification:
         if not evidence:
             return self._fail(
                 claim, method,
-                user_msg="We found sources but couldn't extract usable content from them.",
+                user_msg="We found sources but couldn't extract usable content from backend.them.",
                 dev_msg=f"extract_evidence returned empty for claim: {repr(claim)} | urls: {Links}",
             )
 
@@ -209,7 +209,7 @@ class verification:
                 return self._fail(
                     claim=user_input,
                     method=None,
-                    user_msg="We fetched the article but couldn't extract any claims from it.",
+                    user_msg="We fetched the article but couldn't extract any claims from backend.it.",
                     dev_msg=f"extract_candidate_sentences raised for url: {repr(user_input)}",
                     exc=e,
                 )
@@ -228,7 +228,7 @@ class verification:
                 return self._fail(
                     claim=user_input,
                     method=None,
-                    user_msg="We extracted content from the article but couldn't score the claims.",
+                    user_msg="We extracted content from backend.the article but couldn't score the claims.",
                     dev_msg=f"rephrase_and_score raised for url path | url: {repr(user_input)}",
                     exc=e,
                 )
@@ -237,7 +237,7 @@ class verification:
                 return self._fail(
                     claim=user_input,
                     method=None,
-                    user_msg="No verifiable claims could be extracted from this article.",
+                    user_msg="No verifiable claims could be extracted from backend.this article.",
                     dev_msg=f"rephrase_and_score returned empty for url: {repr(user_input)}",
                 )
 
@@ -374,7 +374,7 @@ class verification:
             except Exception as e:
                 return index, self._fail(
                     claim, method,
-                    user_msg="We found sources but couldn't extract usable content from them.",
+                    user_msg="We found sources but couldn't extract usable content from backend.them.",
                     dev_msg=f"extract_evidence raised for claim: {repr(claim)} | urls: {links}",
                     exc=e
                 )
@@ -382,7 +382,7 @@ class verification:
             if not evidence:
                 return index, self._fail(
                     claim, method,
-                    user_msg="We found sources but couldn't extract usable content from them.",
+                    user_msg="We found sources but couldn't extract usable content from backend.them.",
                     dev_msg=f"extract_evidence returned empty for claim: {repr(claim)} | urls: {links}"
                 )
 
@@ -430,14 +430,3 @@ class verification:
                     )
 
         return results
-
-if __name__ == "__main__":
-    vc = verification()
-    claims = [
-        "does us really killed iran leader Ali Khamenei and other top officials", # Example of single claim 
-        "what is machine learning", # interrogative sentence
-        "https://www.aljazeera.com/news/2026/2/28/irans-supreme-leader-ali-khamenei-killed-in-us-israeli-attacks-reports" # Example of Multiple-claims
-    ]
-    claim = claims[2]
-    claims = vc.input_handler(claim)
-    print(vc.verify_claims_batch(claims)) 

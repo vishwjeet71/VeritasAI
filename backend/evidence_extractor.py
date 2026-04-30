@@ -1,8 +1,8 @@
 from sentence_transformers import SentenceTransformer
 import logging, numpy as np
 from transformers import logging as hf_logging
-from claim_extractor import NLP as spacyModel
-from article_fetcher import fetch_article
+from backend.claim_extractor import NLP as spacyModel
+from backend.article_fetcher import fetch_article
 
 hf_logging.set_verbosity_error()
 logging.basicConfig(level=logging.INFO)
@@ -62,12 +62,3 @@ class Transformer:
             return text_chunks
         else:
             return None
-
-
-# --- Testing ---
-if __name__ == "__main__":
-    tf = Transformer()
-    print(tf.get_embeddings(["hello world"]))
-
-    print(tf.extract_evidence(claim="<claim>",
-                              source_urls= ["<url1>", "<url2>"]))

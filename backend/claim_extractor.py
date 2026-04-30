@@ -2,7 +2,7 @@ from spacy.tokens import Span, Doc
 from spacy.util import is_package
 from typing import List, Optional, Set
 import logging, groq, json, spacy
-from prompts import QUERY_EXTRACT_PROMPT
+from backend.prompts import QUERY_EXTRACT_PROMPT
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -136,24 +136,3 @@ def extract_from_query(query: str,
     return [r for r in results if r["score"] >= strictness]
 
 
-# --- Testing ---
-if __name__ == "__main__":
-
-    # Pattern based sentences extraction
-
-    raw_text = str(input("Enter text: "))
-    candidates = extract_candidate_sentences(raw_text)
-
-
-    # new function
-
-    client = groq.Groq(api_key="<yourApiKey>")
-    test_queries = [
-    "is it true that khamenei was killed in US israeli strikes",
-    "apparently apple is worth 3 trillion dollars and it was founded by steve jobs in 1976",
-    "what is machine learning",
-    "someone told me covid vaccine causes infertility and also pfizer made 36 billion in 2021",
-]   
-    for i, q in enumerate(test_queries):
-        result = extract_from_query(q, client)
-        print(f"{i + 1}: {result}")
