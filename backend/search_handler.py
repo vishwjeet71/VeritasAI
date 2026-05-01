@@ -51,11 +51,11 @@ class search_and_filter():
             apikey: str = os.getenv("gnewsApi")
     ):
         if not isinstance(searchquerys, list):
-            logger.error("[searchAndFilter] Invalid input: searchquerys must be a list")
+            logger.error("[searchAndFilter][gnews] Invalid input: searchquerys must be a list")
             return {}
         
         if len(searchquerys) == 0:
-            logger.info("[searchAndFilter] get null input")
+            logger.info("[searchAndFilter][gnews] get null input")
             return {}
         
         new_format = {}
@@ -72,24 +72,73 @@ class search_and_filter():
             try:
                 response = requests.get(url, params=params)
             except Exception as e:
-                logger.error(f"[searchAndFilter] Error: {str(e)}")
+                logger.error(f"[searchAndFilter][gnews] Error: {str(e)}")
                 continue
 
             if response.status_code == (400, 401):
-                logger.error("[searchAndFilter] Somthing wrrong with the Api key!")
+                logger.error("[searchAndFilter][gnews] Somthing wrrong with the Api key!")
                 return {}
             
             if response.status_code == 200:
                 articals = response.json()['articles']
-                logger.info(f"[searchAndFilter] Request successful collected {len(articals)} articles")
+                logger.info(f"[searchAndFilter][gnews] Request successful collected {len(articals)} articles")
                 for artical in articals:
                     new_format[artical["id"]] = {
                         "name": artical["source"].get("name", "unknown"),
                         "url": artical['url']
                     }
             else:
-                logger.error(f"[searchAndFilter] Request failed with status code: {response.status_code}")
+                logger.error(f"[searchAndFilter][gnews] Request failed with status code: {response.status_code}")
                 return {}
 
         data = json.loads(json.dumps(new_format))
+        return data
+    
+    @_filter
+    def superDev(self, searchquerys: list[str],
+                superDevApi: str):
+        if not isinstance(searchquerys, list):
+                logger.error("[searchAndFilter][superDev] Invalid input: searchquerys must be a list")
+                return {}
+            
+        if len(searchquerys) == 0:
+            logger.info("[searchAndFilter][superDev] get null input")
+            return {}
+            
+        new_format = {}
+
+        for searchquery in searchquerys:
+            url = "https://google.serper.dev/news"
+            payload = json.dumps({
+                "q": searchquery,
+                "hl": "en"
+            })
+            headers = {
+                'X-API-KEY': superDevApi,
+                'Content-Type': 'application/json'
+            }
+            try:
+                response = requests.request("POST", url, headers=headers, data=payload)
+            except Exception as e:
+                logger.error(f"[searchAndFilter][superDev] Error: {str(e)}")
+                continue
+
+            if response.status_code == (400, 401):
+                    logger.error("[searchAndFilter][superDev] Somthing wrrong with the Api key!")
+                    return {}
+                    
+            if response.status_code == 200:
+                    data = response.json()
+                    articals = data.get("news", [])
+                    logger.info(f"[searchAndFilter][superDev] Request successful collected {len(articals)} articles")
+                    for id, artical in enumerate(articals):
+                        new_format[id] = {
+                                "name": artical.get("source", "unknown"),
+                                "url": artical["link"]
+                        }
+            else:
+                    logger.error(f"[searchAndFilter][superDev] Request failed with status code: {response.status_code}")
+                    return {}
+
+        data = json.loads(json.dumps(new_format, indent=4))
         return data
