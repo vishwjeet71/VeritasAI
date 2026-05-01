@@ -24,6 +24,9 @@ VeritasAI addresses this by:
 
 ![VeritasAI System Pipeline](assets/veritasai_flow.gif)
 
+## Website Look
+![Website First Look](assets/website_look.png)
+
 
 ## Goal of This Project
 
