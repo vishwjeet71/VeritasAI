@@ -1,6 +1,6 @@
 from backend.fact_check_db import check_claim_in_db
-from backend.groq_client import generate_search_queries, generate_verdict, client, rephrase_and_score
-import json, logging, traceback, os
+from backend.groq_client import generate_search_queries, generate_verdict, rephrase_and_score
+import json, logging, traceback, os, groq
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from backend.evidence_extractor import Transformer
 from backend.search_handler import search_and_filter
@@ -16,6 +16,8 @@ class verification:
     def __init__(self):
         self.tf = Transformer()
         self.sf = search_and_filter()
+        self.groq_client = groq.Groq(api_key= os.getenv("GroqApi"))
+        self.serperdev = None
 
 
     def _fail(self, claim: str, method: str | None, user_msg: str, dev_msg: str, exc: Exception = None) -> dict:
@@ -37,11 +39,11 @@ class verification:
         method = None
 
         try:
-            searchQuerys = generate_search_queries(claims=[claim])
+            searchQuerys = generate_search_queries(client=self.groq_client, claims=[claim])
             if not searchQuerys:
                 return self._fail(
                     claim, method,
-                    user_msg="We couldn't process this claim right now. Please try rephrasing it.",
+                    user_msg="This claim cannot be processed at the present time. We recommend rephrasing it or trying again with your API keys.",
                     dev_msg=f"generate_search_queries returned empty for claim: {repr(claim)}",
                 )
             fact_check_query = searchQuerys[0].get("fact_check_query")
@@ -72,6 +74,9 @@ class verification:
                 search_results = self.sf.gnews([gnews_specific])
                 if not search_results:
                     search_results = self.sf.gnews([gnews_broad])
+                    if self.serperdev and not search_results:
+                        logger.info("[search pipeline] Using serperdev for artical collection")
+                        search_results = self.sf.serperdev([fact_check_query], serperdevApi=self.serperdev)
             except Exception as e:
                 return self._fail(
                     claim, method,
@@ -83,7 +88,7 @@ class verification:
             if not search_results:
                 return self._fail(
                     claim, method,
-                    user_msg="We couldn't find reliable sources to verify this claim.",
+                    user_msg="We did not find dependable sources to validate this claim. Please try using the [serperdev] API to continue with the Google search results.",
                     dev_msg=f"Both gnews_specific and gnews_broad returned no results for claim: {repr(claim)}",
                 )
 
@@ -110,7 +115,7 @@ class verification:
 
         # verdict generation
         try:
-            verdict = generate_verdict(claim=claim, evidence_chunks=evidence, source_urls=Links)
+            verdict = generate_verdict(client=self.groq_client, claim=claim, evidence_chunks=evidence, source_urls=Links)
         except Exception as e:
             return self._fail(
                 claim, method,
@@ -122,7 +127,7 @@ class verification:
         if not verdict:
             return self._fail(
                 claim, method,
-                user_msg="Verification failed at the final step. Please try again.",
+                user_msg="Verification failed at the final step. Please try with you api keys.",
                 dev_msg=f"generate_verdict returned empty/None for claim: {repr(claim)}",
             )
 
@@ -155,7 +160,7 @@ class verification:
     
         if input_type.get("type") == "query":
             try:
-                valid_claims = rephrase_and_score(candidates=[user_input])
+                valid_claims = rephrase_and_score(client=self.groq_client, candidates=[user_input])
             except Exception as e:
                 return self._fail(
                     claim=user_input,
@@ -169,7 +174,7 @@ class verification:
                 return self._fail(
                     claim=user_input,
                     method=None,
-                    user_msg="No verifiable factual claims found. Try entering a factual statement or an article URL.",
+                    user_msg="No verifiable factual claims have been detected. Consider entering a factual statement or the URL of an article. Begin by using your API keys.",
                     dev_msg=f"rephrase_and_score returned empty for query: {repr(user_input)}",
                 )
 
@@ -223,7 +228,7 @@ class verification:
                 )
 
             try:
-                valid_claims = rephrase_and_score(candidates=candidates)
+                valid_claims = rephrase_and_score(client=self.groq_client, candidates=candidates)
             except Exception as e:
                 return self._fail(
                     claim=user_input,
@@ -237,7 +242,7 @@ class verification:
                 return self._fail(
                     claim=user_input,
                     method=None,
-                    user_msg="No verifiable claims could be extracted from backend.this article.",
+                    user_msg="No verifiable claims could be extracted, Try with your api keys.",
                     dev_msg=f"rephrase_and_score returned empty for url: {repr(user_input)}",
                 )
 
@@ -262,7 +267,7 @@ class verification:
 
         # Generate search queries for all claims
         try:
-            all_search_queries = generate_search_queries(claims=claims)
+            all_search_queries = generate_search_queries(client=self.groq_client, claims=claims)
             if not all_search_queries or len(all_search_queries) != len(claims):
                 logger.error(
                     f"[verify_claims_batch] generate_search_queries returned "
@@ -343,11 +348,25 @@ class verification:
                     )
                     continue
 
+                if self.serperdev and not search_results:
+                    try:
+                        search_results = self.sf.serperdev([fact_check_query], serperdevApi=self.serperdev)
+                    except Exception as e:
+                        resolved.append(
+                            self._fail(
+                                claim, "search pipeline",
+                                user_msg="We couldn't find relevant sources for this claim. Please try again later.",
+                                dev_msg=f"serperdev query raised for claim: {repr(claim)}",
+                                exc=e
+                            )
+                        )
+                        continue
+
             if not search_results:
                 resolved.append(
                     self._fail(
                         claim, "search pipeline",
-                        user_msg="We couldn't find reliable sources to verify this claim.",
+                        user_msg="We did not find dependable sources to validate this claim. Please try using the [serperdev] API to continue with the Google search results.",
                         dev_msg=f"Both gnews queries returned no results for claim: {repr(claim)}"
                     )
                 )
@@ -388,7 +407,7 @@ class verification:
 
             # verdict generation
             try:
-                verdict = generate_verdict(claim=claim, evidence_chunks=evidence, source_urls=links)
+                verdict = generate_verdict(client=self.groq_client ,claim=claim, evidence_chunks=evidence, source_urls=links)
             except Exception as e:
                 return index, self._fail(
                     claim, method,

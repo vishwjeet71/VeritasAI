@@ -1,13 +1,14 @@
 from backend.prompts import REPHRASE_AND_SCORE_PROMPT, SEARCH_QUERY_PROMPT, VERDICT_PROMPT
-import logging, groq, json, os
+import logging, groq, json
 from dotenv import load_dotenv
 load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-client = groq.Groq(api_key= os.getenv("GroqApi"))
+# client = groq.Groq(api_key= os.getenv("GroqApi"))
 
 def rephrase_and_score(
+        client: None,
         candidates: list[str],
         model_name = "llama-3.3-70b-versatile"
         ) -> list[dict]:
@@ -60,6 +61,7 @@ def rephrase_and_score(
 
 
 def generate_search_queries(
+        client: None,
         claims: list[str],
         model_name: str = "llama-3.3-70b-versatile"
         ) -> list[dict]:
@@ -108,6 +110,7 @@ def generate_search_queries(
 
 
 def generate_verdict(
+        client: None,
         claim: str,
         evidence_chunks: list[str], 
         source_urls: list[str],
@@ -163,4 +166,3 @@ def generate_verdict(
         result["verdict"] = "Inconclusive"
 
     return result
-

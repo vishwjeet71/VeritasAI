@@ -95,14 +95,14 @@ class search_and_filter():
         return data
     
     @_filter
-    def superDev(self, searchquerys: list[str],
-                superDevApi: str):
+    def serperdev(self, searchquerys: list[str],
+                serperdevApi: str):
         if not isinstance(searchquerys, list):
-                logger.error("[searchAndFilter][superDev] Invalid input: searchquerys must be a list")
+                logger.error("[searchAndFilter][serperdev] Invalid input: searchquerys must be a list")
                 return {}
             
         if len(searchquerys) == 0:
-            logger.info("[searchAndFilter][superDev] get null input")
+            logger.info("[searchAndFilter][serperdev] get null input")
             return {}
             
         new_format = {}
@@ -114,30 +114,30 @@ class search_and_filter():
                 "hl": "en"
             })
             headers = {
-                'X-API-KEY': superDevApi,
+                'X-API-KEY': serperdevApi,
                 'Content-Type': 'application/json'
             }
             try:
                 response = requests.request("POST", url, headers=headers, data=payload)
             except Exception as e:
-                logger.error(f"[searchAndFilter][superDev] Error: {str(e)}")
+                logger.error(f"[searchAndFilter][serperdev] Error: {str(e)}")
                 continue
 
             if response.status_code == (400, 401):
-                    logger.error("[searchAndFilter][superDev] Somthing wrrong with the Api key!")
+                    logger.error("[searchAndFilter][serperdev] Somthing wrrong with the Api key!")
                     return {}
                     
             if response.status_code == 200:
                     data = response.json()
                     articals = data.get("news", [])
-                    logger.info(f"[searchAndFilter][superDev] Request successful collected {len(articals)} articles")
+                    logger.info(f"[searchAndFilter][serperdev] Request successful collected {len(articals)} articles")
                     for id, artical in enumerate(articals):
                         new_format[id] = {
                                 "name": artical.get("source", "unknown"),
                                 "url": artical["link"]
                         }
             else:
-                    logger.error(f"[searchAndFilter][superDev] Request failed with status code: {response.status_code}")
+                    logger.error(f"[searchAndFilter][serperdev] Request failed with status code: {response.status_code}")
                     return {}
 
         data = json.loads(json.dumps(new_format, indent=4))
