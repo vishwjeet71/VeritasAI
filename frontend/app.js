@@ -344,8 +344,13 @@
   //  EXIT CLEANUP 
   window.addEventListener('beforeunload', () => {
     if (!state.userId) return;
-    const data = JSON.stringify({ userid: state.userId });
-    navigator.sendBeacon('/api/delete-user', data);
+
+    fetch('/api/delete-user', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userid: state.userId }),
+      keepalive: true
+    })
   });
 
   //  INIT 
