@@ -7,9 +7,7 @@
 [![Groq](https://img.shields.io/badge/Groq-Llama_3.3_70B-orange?style=flat-square)](https://groq.com)
 [![License](https://img.shields.io/badge/License-MIT-gray?style=flat-square)](LICENSE)
 
-<video controls width="100%">
-  <source src="assets/live-demo.mp4" type="video/mp4">
-</video>
+https://github.com/user-attachments/assets/931de255-7161-4687-8dae-317f22b7b681
 
 ---
 
