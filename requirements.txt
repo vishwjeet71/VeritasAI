@@ -1,0 +1,14 @@
+beautifulsoup4==4.14.3
+fastapi==0.136.1
+groq==1.2.0
+gspread==6.2.1
+numpy==2.4.4
+protobuf==7.34.1
+pydantic==2.13.4
+python-dotenv==1.2.2
+Requests==2.33.1
+sentence_transformers==5.4.1
+spacy==3.8.14
+trafilatura==2.0.0
+transformers==5.5.4
+validators==0.35.0
