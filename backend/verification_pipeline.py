@@ -17,7 +17,7 @@ class verification:
         self.tf = Transformer()
         self.sf = search_and_filter()
         self.groq_client = groq.Groq(api_key= os.getenv("GroqApi"))
-        self.serperdev = None
+        self.serperdev = None 
 
 
     def _fail(self, claim: str, method: str | None, user_msg: str, dev_msg: str, exc: Exception = None) -> dict:
@@ -101,7 +101,7 @@ class verification:
         except Exception as e:
             return self._fail(
                 claim, method,
-                user_msg="We found sources but couldn't extract usable content from backend.them.",
+                user_msg="We found sources but couldn't extract usable content from them.",
                 dev_msg=f"extract_evidence raised for claim: {repr(claim)} | urls: {Links}",
                 exc=e,
             )
@@ -109,7 +109,7 @@ class verification:
         if not evidence:
             return self._fail(
                 claim, method,
-                user_msg="We found sources but couldn't extract usable content from backend.them.",
+                user_msg="We found sources but couldn't extract usable content from them.",
                 dev_msg=f"extract_evidence returned empty for claim: {repr(claim)} | urls: {Links}",
             )
 

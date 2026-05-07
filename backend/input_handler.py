@@ -17,9 +17,3 @@ def classify_input(user_input):
             "type":"query",
             "value":user_input
         }
-
-# --- Testing ----
-if __name__ =="__main__":
-    url = str(input("Enter a URL: "))
-
-    print(classify_input(url))

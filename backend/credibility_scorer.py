@@ -16,11 +16,11 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 load_dotenv()
-creds_path = os.getenv("GOOGLE_SHEETS_CREDENTIALS_PATH")
-if creds_path is None:
-    raise ValueError("Credentials path not found in environment variables.")
+creds_dict = json.loads(os.getenv("GOOGLE_SHEETS_CREDENTIALS_JSON"))
+if creds_dict is None:
+    raise ValueError("Credentials dict not found in environment variables.")
 
-_creds = Credentials.from_service_account_file(creds_path, scopes=[
+_creds = Credentials.from_service_account_info(creds_dict, scopes=[
     "https://www.googleapis.com/auth/spreadsheets",
     "https://www.googleapis.com/auth/drive"
 ])
@@ -388,12 +388,3 @@ def get_credibility_scorer(org_names: list | set, dbObject: Sheetdb) -> dict:
         final_output[org] = _calculate_credibility_score(att)
 
     return final_output
-
-
-# --- Testing ---
-if __name__ == "__main__":
-
-    sdb = Sheetdb()
-    print(get_credibility_scorer([
-        "times of india", "news18", "The New York Times", "vaccines revealed", "life news"
-    ], sdb))
