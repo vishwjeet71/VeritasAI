@@ -1,0 +1,8 @@
+.env
+sheetkey.json
+__pycache__/
+*.pyc
+env/
+.git/
+assets/
+*.mp4
