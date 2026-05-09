@@ -1,4 +1,4 @@
-# VeritasAI
+# [VeritasAI](https://huggingface.co/spaces/vishwjeet71/VeritasAI)
 
 **A multi-stage fact-checking pipeline built around one constraint: every verdict must be grounded in retrieved evidence, not LLM training data.**
 
@@ -8,6 +8,8 @@
 [![License](https://img.shields.io/badge/License-MIT-gray?style=flat-square)](LICENSE)
 
 https://github.com/user-attachments/assets/931de255-7161-4687-8dae-317f22b7b681
+
+[👉 Click Here to visit the webpage 👈](https://huggingface.co/spaces/vishwjeet71/VeritasAI)
 
 ---
 
