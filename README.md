@@ -1,3 +1,13 @@
+---
+title: VeritasAI
+emoji: 🔍
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # VeritasAI
 
 **A multi-stage fact-checking pipeline built around one constraint: every verdict must be grounded in retrieved evidence, not LLM training data.**
