@@ -12,3 +12,4 @@ spacy==3.8.14
 trafilatura==2.0.0
 transformers==5.5.4
 validators==0.35.0
+pytest

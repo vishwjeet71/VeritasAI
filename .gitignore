@@ -1,4 +1,6 @@
 env/
-backend/testing.py
 .env
-sheetkey.jsonassets/
+sheetkey.json
+eval_dataset.csv
+__pycache__
+backend/__init__.py
