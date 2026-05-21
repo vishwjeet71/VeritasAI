@@ -2,6 +2,7 @@ import requests, json, random
 from dotenv import load_dotenv
 import logging, os
 from backend.credibility_scorer import get_credibility_scorer, Sheetdb
+import time
 
 load_dotenv()
 sdb = Sheetdb()
@@ -50,6 +51,8 @@ class search_and_filter():
             self, searchquerys: list[str],
             apikey: str = os.getenv("gnewsApi")
     ):
+        time.sleep(2)
+
         if not isinstance(searchquerys, list):
             logger.error("[searchAndFilter][gnews] Invalid input: searchquerys must be a list")
             return {}
@@ -75,7 +78,7 @@ class search_and_filter():
                 logger.error(f"[searchAndFilter][gnews] Error: {str(e)}")
                 continue
 
-            if response.status_code == (400, 401):
+            if response.status_code in (400, 401):
                 logger.error("[searchAndFilter][gnews] Somthing wrrong with the Api key!")
                 return {}
             
@@ -123,7 +126,7 @@ class search_and_filter():
                 logger.error(f"[searchAndFilter][serperdev] Error: {str(e)}")
                 continue
 
-            if response.status_code == (400, 401):
+            if response.status_code in (400, 401):
                     logger.error("[searchAndFilter][serperdev] Somthing wrrong with the Api key!")
                     return {}
                     
